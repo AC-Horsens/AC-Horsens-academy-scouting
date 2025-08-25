@@ -1,0 +1,11 @@
+DateTime==5.5
+matplotlib==3.8.4
+mplsoccer==1.2.4
+numpy==1.26.4
+openpyxl==3.1.2
+packaging==23.2
+pandas==2.2.2
+plotly==5.20.0
+streamlit==1.35.0
+tzdata==2024.1
+update==0.0.1

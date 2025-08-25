@@ -1,0 +1,429 @@
+SHORTNAME,TEAMNAME,MATCHLABEL,total_duels,stoppedprogress_count,recoveredpossession_count,stoppedprogress_percent,recoveredpossession_percent
+A. Aamann,Sundby,"Vejgaard B - Sundby, 1 - 1",1,0,0,0.0,0.0
+A. Al-Hummadi,Hørsholm-Usserød,"Brønshøj - Hørsholm-Usserød, 0 - 2",5,3,1,60.0,20.0
+A. Al-Hummadi,Hørsholm-Usserød,"Hørsholm-Usserød - FA 2000, 5 - 1",4,2,2,50.0,50.0
+A. Al-Hummadi,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",4,1,1,25.0,25.0
+A. Amhamdi,Vanløse,"Vanløse - FA 2000, 4 - 0",2,1,1,50.0,50.0
+A. Amhamdi,Vanløse,"Vanløse - Nykøbing, 2 - 2",1,0,0,0.0,0.0
+A. Barlach,Vanløse,"Vanløse - FA 2000, 4 - 0",4,3,0,75.0,0.0
+A. Barlach,Vanløse,"Vanløse - Nykøbing, 2 - 2",6,3,0,50.0,0.0
+A. Bergholdt,Brønshøj,"Brønshøj - Hørsholm-Usserød, 0 - 2",4,2,0,50.0,0.0
+A. Bergholdt,Brønshøj,"Holbæk B&I - Brønshøj, 5 - 3",3,1,1,33.33,33.33
+A. Hansen,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",20,12,5,60.0,25.0
+A. Hansen,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",3,3,2,100.0,66.67
+A. Hansen,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",2,1,0,50.0,0.0
+A. Hassan,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",3,1,0,33.33,0.0
+A. Hassan,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",2,1,1,50.0,50.0
+A. Hassan,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",2,0,0,0.0,0.0
+A. Hemmingsen,Frem,"Frem - Næsby, 1 - 2",6,4,0,66.67,0.0
+A. Hvid,Hørsholm-Usserød,"Brønshøj - Hørsholm-Usserød, 0 - 2",5,2,0,40.0,0.0
+A. Hvid,Hørsholm-Usserød,"Hørsholm-Usserød - FA 2000, 5 - 1",2,1,0,50.0,0.0
+A. Katun Ibrahim,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",6,5,3,83.33,50.0
+A. Katun Ibrahim,Lyseng,"Lyseng - Vanløse, 1 - 2",9,8,3,88.89,33.33
+A. Katun Ibrahim,Lyseng,"Odder - Lyseng, 2 - 0",11,5,4,45.45,36.36
+A. Kieffer,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",1,1,0,100.0,0.0
+A. Knaack,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",1,1,0,100.0,0.0
+A. Knaack,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",7,4,0,57.14,0.0
+A. Knaack,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",1,0,0,0.0,0.0
+A. Kotanga Muloko,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",3,2,1,66.67,33.33
+A. Kotanga Muloko,Lyseng,"Odder - Lyseng, 2 - 0",2,1,0,50.0,0.0
+A. Laursen,Odder,"Odder - Lyseng, 2 - 0",4,1,0,25.0,0.0
+A. Laursen,Odder,"Sundby - Odder, 3 - 0",1,1,0,100.0,0.0
+A. Lykke,Odder,"Odder - Lyseng, 2 - 0",3,2,0,66.67,0.0
+A. Lykke,Odder,"Odder - Næsby, 2 - 3",4,2,2,50.0,50.0
+A. Lykke,Odder,"Sundby - Odder, 3 - 0",2,1,0,50.0,0.0
+A. Molberg,Næsby,"Frem - Næsby, 1 - 2",2,2,1,100.0,50.0
+A. Molberg,Næsby,"Odder - Næsby, 2 - 3",7,2,1,28.57,14.29
+A. Nybro,Odder,"Odder - Lyseng, 2 - 0",2,1,0,50.0,0.0
+A. Nybro,Odder,"Sundby - Odder, 3 - 0",1,1,1,100.0,100.0
+A. Sønderby,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",3,2,0,66.67,0.0
+A. Østergaard,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",1,1,0,100.0,0.0
+A. Østergaard,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",4,2,0,50.0,0.0
+A. Østergaard,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",1,1,0,100.0,0.0
+Abdul Arshad,Brønshøj,"Holbæk B&I - Brønshøj, 5 - 3",7,5,3,71.43,42.86
+Alan Jahic,Vanløse,"Lyseng - Vanløse, 1 - 2",1,1,1,100.0,100.0
+B. Axelsson,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",3,2,1,66.67,33.33
+B. Juel-Berg,Sundby,"Frem - Sundby, 3 - 2",6,4,4,66.67,66.67
+B. Juel-Berg,Sundby,"Sundby - Odder, 3 - 0",3,1,1,33.33,33.33
+B. Juel-Berg,Sundby,"Vejgaard B - Sundby, 1 - 1",6,4,2,66.67,33.33
+B. Kold,Nykøbing,"Hørsholm-Usserød - Nykøbing, 0 - 2",1,1,0,100.0,0.0
+B. Kold,Nykøbing,"Nykøbing - Holbæk B&I, 1 - 0",2,1,0,50.0,0.0
+B. Kold,Nykøbing,"Vanløse - Nykøbing, 2 - 2",4,1,0,25.0,0.0
+B. Meibom,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",2,2,2,100.0,100.0
+B. Paludan,Vanløse,"Lyseng - Vanløse, 1 - 2",2,0,0,0.0,0.0
+B. Paludan,Vanløse,"Vanløse - FA 2000, 4 - 0",5,2,2,40.0,40.0
+B. Paludan,Vanløse,"Vanløse - Nykøbing, 2 - 2",1,0,0,0.0,0.0
+B. Suner,Odder,"Odder - Lyseng, 2 - 0",11,8,3,72.73,27.27
+B. Suner,Odder,"Odder - Næsby, 2 - 3",2,1,0,50.0,0.0
+B. Suner,Odder,"Sundby - Odder, 3 - 0",6,6,4,100.0,66.67
+C. Espensen Troelsen,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",13,7,3,53.85,23.08
+C. Espensen Troelsen,FA 2000,"Vanløse - FA 2000, 4 - 0",12,11,6,91.67,50.0
+C. Froulund,Frem,"Frem - Næsby, 1 - 2",11,7,3,63.64,27.27
+C. Froulund,Frem,"Frem - Sundby, 3 - 2",4,1,0,25.0,0.0
+C. Kræmer,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",1,1,0,100.0,0.0
+C. Kræmer,Vejgaard B,"Vejgaard B - Sundby, 1 - 1",4,3,2,75.0,50.0
+C. Remmer,Frem,"Frem - Næsby, 1 - 2",5,4,0,80.0,0.0
+C. Remmer,Frem,"Frem - Sundby, 3 - 2",6,1,1,16.67,16.67
+C. Ulrich Strømmen,Hørsholm-Usserød,"Hørsholm-Usserød - FA 2000, 5 - 1",2,1,1,50.0,50.0
+C. Ulrich Strømmen,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",14,10,4,71.43,28.57
+D. B.V. Nielsen,Vanløse,"Lyseng - Vanløse, 1 - 2",3,2,1,66.67,33.33
+D. B.V. Nielsen,Vanløse,"Vanløse - Nykøbing, 2 - 2",3,3,2,100.0,66.67
+D. Bernasko Appu,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",11,3,3,27.27,27.27
+D. Bernasko Appu,FA 2000,"Vanløse - FA 2000, 4 - 0",1,1,0,100.0,0.0
+D. Warmbach,Frem,"Frem - Sundby, 3 - 2",9,5,3,55.56,33.33
+E. Alici,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",5,3,2,60.0,40.0
+E. Bodholdt-Larsen,Vanløse,"Lyseng - Vanløse, 1 - 2",2,1,1,50.0,50.0
+E. Bodholdt-Larsen,Vanløse,"Vanløse - FA 2000, 4 - 0",4,3,1,75.0,25.0
+E. Bodholdt-Larsen,Vanløse,"Vanløse - Nykøbing, 2 - 2",3,1,1,33.33,33.33
+E. Colding,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",2,1,1,50.0,50.0
+E. Eriksen,Sundby,"Frem - Sundby, 3 - 2",4,3,1,75.0,25.0
+E. Eriksen,Sundby,"Sundby - Odder, 3 - 0",4,1,0,25.0,0.0
+E. Eriksen,Sundby,"Vejgaard B - Sundby, 1 - 1",1,1,0,100.0,0.0
+E. Gürsoy,Lyseng,"Odder - Lyseng, 2 - 0",6,4,1,66.67,16.67
+E. Idrissi,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",1,1,0,100.0,0.0
+E. Jønson,Odder,"Odder - Næsby, 2 - 3",3,2,0,66.67,0.0
+E. Jønson,Odder,"Sundby - Odder, 3 - 0",2,2,2,100.0,100.0
+E. Lundquist,Sundby,"Frem - Sundby, 3 - 2",2,1,0,50.0,0.0
+E. Lundquist,Sundby,"Sundby - Odder, 3 - 0",5,2,2,40.0,40.0
+E. Lundquist,Sundby,"Vejgaard B - Sundby, 1 - 1",2,2,0,100.0,0.0
+E. Mygind Jensen,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",5,1,0,20.0,0.0
+E. Mygind Jensen,FA 2000,"Vanløse - FA 2000, 4 - 0",2,2,0,100.0,0.0
+E. Ogude,Nykøbing,"Hørsholm-Usserød - Nykøbing, 0 - 2",1,0,0,0.0,0.0
+E. Ogude,Nykøbing,"Nykøbing - Holbæk B&I, 1 - 0",2,1,0,50.0,0.0
+E. Ogude,Nykøbing,"Vanløse - Nykøbing, 2 - 2",2,0,0,0.0,0.0
+E. Otkjær Walløe,Hørsholm-Usserød,"Brønshøj - Hørsholm-Usserød, 0 - 2",9,5,2,55.56,22.22
+E. Otkjær Walløe,Hørsholm-Usserød,"Hørsholm-Usserød - FA 2000, 5 - 1",8,5,4,62.5,50.0
+E. Otkjær Walløe,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",5,4,2,80.0,40.0
+E. Rusborg,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",4,1,0,25.0,0.0
+E. Rusborg,FA 2000,"Vanløse - FA 2000, 4 - 0",4,1,0,25.0,0.0
+E. Tekşen,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",5,5,1,100.0,20.0
+E. Tekşen,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",2,1,0,50.0,0.0
+E. Tekşen,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",3,3,0,100.0,0.0
+E. Wass,Frem,"Frem - Næsby, 1 - 2",4,3,1,75.0,25.0
+F. Bonabi,FA 2000,"Vanløse - FA 2000, 4 - 0",1,0,0,0.0,0.0
+F. Lund,Odder,"Odder - Næsby, 2 - 3",3,2,2,66.67,66.67
+F. Nedergaard,Odder,"Odder - Lyseng, 2 - 0",5,3,2,60.0,40.0
+F. Nedergaard,Odder,"Odder - Næsby, 2 - 3",3,0,0,0.0,0.0
+F. Nedergaard,Odder,"Sundby - Odder, 3 - 0",2,1,0,50.0,0.0
+F. Nielsen,Odder,"Odder - Lyseng, 2 - 0",4,4,3,100.0,75.0
+F. Nielsen,Odder,"Odder - Næsby, 2 - 3",5,3,1,60.0,20.0
+F. Nielsen,Odder,"Sundby - Odder, 3 - 0",5,2,1,40.0,20.0
+F. Pedersen,Odder,"Odder - Lyseng, 2 - 0",3,1,1,33.33,33.33
+F. Pedersen,Odder,"Sundby - Odder, 3 - 0",1,0,0,0.0,0.0
+G. Dahl,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",1,1,0,100.0,0.0
+G. Dahl,Vejgaard B,"Vejgaard B - Sundby, 1 - 1",2,2,0,100.0,0.0
+G. Drest Wagner,Brønshøj,"Brønshøj - Hørsholm-Usserød, 0 - 2",3,2,2,66.67,66.67
+G. Drest Wagner,Brønshøj,"Holbæk B&I - Brønshøj, 5 - 3",9,7,3,77.78,33.33
+G. Frederiksen,Sundby,"Frem - Sundby, 3 - 2",4,4,2,100.0,50.0
+G. Frederiksen,Sundby,"Sundby - Odder, 3 - 0",1,0,0,0.0,0.0
+G. Frederiksen,Sundby,"Vejgaard B - Sundby, 1 - 1",7,5,2,71.43,28.57
+G. Hansen,Frem,"Frem - Næsby, 1 - 2",4,3,2,75.0,50.0
+G. Hansen,Frem,"Frem - Sundby, 3 - 2",4,3,1,75.0,25.0
+G. Hyldahl Kirkeby,Hørsholm-Usserød,"Brønshøj - Hørsholm-Usserød, 0 - 2",3,1,0,33.33,0.0
+G. Hyldahl Kirkeby,Hørsholm-Usserød,"Hørsholm-Usserød - FA 2000, 5 - 1",6,3,1,50.0,16.67
+G. Hyldahl Kirkeby,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",5,4,2,80.0,40.0
+G. Johan,Hørsholm-Usserød,"Brønshøj - Hørsholm-Usserød, 0 - 2",2,2,1,100.0,50.0
+G. Petersen,Hørsholm-Usserød,"Brønshøj - Hørsholm-Usserød, 0 - 2",4,3,1,75.0,25.0
+G. Petersen,Hørsholm-Usserød,"Hørsholm-Usserød - FA 2000, 5 - 1",7,5,2,71.43,28.57
+G. Petersen,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",3,2,0,66.67,0.0
+G. Pyne-Cole,Sundby,"Frem - Sundby, 3 - 2",1,0,0,0.0,0.0
+G. Stenderup,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",3,3,0,100.0,0.0
+G. Street Lundqvist,Sundby,"Vejgaard B - Sundby, 1 - 1",1,0,0,0.0,0.0
+G. Vennemus,Vanløse,"Lyseng - Vanløse, 1 - 2",8,4,3,50.0,37.5
+G. Vennemus,Vanløse,"Vanløse - FA 2000, 4 - 0",1,0,0,0.0,0.0
+G. Vennemus,Vanløse,"Vanløse - Nykøbing, 2 - 2",1,0,0,0.0,0.0
+H. El Idrissi,Sundby,"Sundby - Odder, 3 - 0",2,2,2,100.0,100.0
+H. El Idrissi,Sundby,"Vejgaard B - Sundby, 1 - 1",3,2,1,66.67,33.33
+H. Elsayed,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",3,1,1,33.33,33.33
+H. Elsayed,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",1,1,0,100.0,0.0
+H. Elsayed,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",1,0,0,0.0,0.0
+H. Hemmingsen,Næsby,"Frem - Næsby, 1 - 2",8,2,1,25.0,12.5
+H. Tümtürk,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",12,8,5,66.67,41.67
+H. Tümtürk,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",2,1,1,50.0,50.0
+H. Tümtürk,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",6,5,2,83.33,33.33
+I. Mehanovic,Brønshøj,"Brønshøj - Hørsholm-Usserød, 0 - 2",6,5,0,83.33,0.0
+I. Mehanovic,Brønshøj,"Holbæk B&I - Brønshøj, 5 - 3",3,2,1,66.67,33.33
+I. Mehanovic,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",3,2,0,66.67,0.0
+J. Becker,Sundby,"Frem - Sundby, 3 - 2",9,5,2,55.56,22.22
+J. Becker,Sundby,"Sundby - Odder, 3 - 0",2,2,0,100.0,0.0
+J. Becker,Sundby,"Vejgaard B - Sundby, 1 - 1",2,1,0,50.0,0.0
+J. Broberg,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",5,4,2,80.0,40.0
+J. Broberg,Lyseng,"Lyseng - Vanløse, 1 - 2",9,8,6,88.89,66.67
+J. Broberg,Lyseng,"Odder - Lyseng, 2 - 0",4,1,1,25.0,25.0
+J. Fechtenburg,Næsby,"Frem - Næsby, 1 - 2",2,1,0,50.0,0.0
+J. Fechtenburg,Næsby,"Odder - Næsby, 2 - 3",1,1,0,100.0,0.0
+J. Funch Sommer,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",7,5,4,71.43,57.14
+J. Funch Sommer,FA 2000,"Vanløse - FA 2000, 4 - 0",12,7,3,58.33,25.0
+J. Gaardsøe,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",3,1,0,33.33,0.0
+J. Gaardsøe,Vejgaard B,"Vejgaard B - Sundby, 1 - 1",7,6,5,85.71,71.43
+J. Hamburger-Toft,Sundby,"Frem - Sundby, 3 - 2",9,5,0,55.56,0.0
+J. Hamburger-Toft,Sundby,"Sundby - Odder, 3 - 0",5,3,2,60.0,40.0
+J. Hansen,Odder,"Odder - Lyseng, 2 - 0",5,1,0,20.0,0.0
+J. Hansen,Odder,"Sundby - Odder, 3 - 0",1,0,0,0.0,0.0
+J. Haslund,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",4,4,1,100.0,25.0
+J. Haslund,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",3,1,0,33.33,0.0
+J. Haslund,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",4,3,1,75.0,25.0
+J. Höjgaard,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",6,4,3,66.67,50.0
+J. Höjgaard,Vejgaard B,"Vejgaard B - Sundby, 1 - 1",6,3,2,50.0,33.33
+J. Jensen,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",1,1,1,100.0,100.0
+J. Jensen,Vejgaard B,"Vejgaard B - Sundby, 1 - 1",1,1,0,100.0,0.0
+J. Johansson,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",2,1,0,50.0,0.0
+J. Kilden Grøn,Odder,"Odder - Næsby, 2 - 3",3,2,1,66.67,33.33
+J. Kilden Grøn,Odder,"Sundby - Odder, 3 - 0",1,1,0,100.0,0.0
+J. Knaack,Vanløse,"Lyseng - Vanløse, 1 - 2",11,6,1,54.55,9.09
+J. Knaack,Vanløse,"Vanløse - FA 2000, 4 - 0",8,6,4,75.0,50.0
+J. Knaack,Vanløse,"Vanløse - Nykøbing, 2 - 2",4,1,0,25.0,0.0
+J. Leth,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",1,1,0,100.0,0.0
+J. Leth,Vejgaard B,"Vejgaard B - Sundby, 1 - 1",6,2,1,33.33,16.67
+J. Nielsen,Frem,"Frem - Næsby, 1 - 2",6,4,1,66.67,16.67
+J. Pank Iversen,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",4,3,2,75.0,50.0
+J. Pank Iversen,Lyseng,"Lyseng - Vanløse, 1 - 2",2,1,0,50.0,0.0
+J. Pank Iversen,Lyseng,"Odder - Lyseng, 2 - 0",5,4,0,80.0,0.0
+J. Shaibu,Frem,"Frem - Næsby, 1 - 2",8,6,1,75.0,12.5
+J. Shaibu,Frem,"Frem - Sundby, 3 - 2",2,0,0,0.0,0.0
+J. Tonnesen,Næsby,"Odder - Næsby, 2 - 3",2,2,1,100.0,50.0
+J. Ugwoke,Lyseng,"Lyseng - Vanløse, 1 - 2",6,3,1,50.0,16.67
+J. Ugwoke,Lyseng,"Odder - Lyseng, 2 - 0",5,3,1,60.0,20.0
+K. Al-Ali,Hørsholm-Usserød,"Brønshøj - Hørsholm-Usserød, 0 - 2",4,4,1,100.0,25.0
+K. Al-Ali,Hørsholm-Usserød,"Hørsholm-Usserød - FA 2000, 5 - 1",10,7,2,70.0,20.0
+K. Al-Ali,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",12,8,1,66.67,8.33
+K. El Haddouchi,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",5,2,1,40.0,20.0
+K. El Haddouchi,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",3,2,2,66.67,66.67
+K. El Haddouchi,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",3,1,1,33.33,33.33
+K. Heerfordt,Brønshøj,"Brønshøj - Hørsholm-Usserød, 0 - 2",1,0,0,0.0,0.0
+K. Heerfordt,Brønshøj,"Holbæk B&I - Brønshøj, 5 - 3",1,1,0,100.0,0.0
+K. Heerfordt,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",5,4,1,80.0,20.0
+K. Høst,Næsby,"Odder - Næsby, 2 - 3",1,1,1,100.0,100.0
+K. Jensen,Nykøbing,"Hørsholm-Usserød - Nykøbing, 0 - 2",9,7,2,77.78,22.22
+K. Jensen,Nykøbing,"Nykøbing - Holbæk B&I, 1 - 0",7,5,2,71.43,28.57
+K. Jensen,Nykøbing,"Vanløse - Nykøbing, 2 - 2",5,3,1,60.0,20.0
+K. Trkulja,Sundby,"Frem - Sundby, 3 - 2",2,1,0,50.0,0.0
+K. Trkulja,Sundby,"Sundby - Odder, 3 - 0",3,1,1,33.33,33.33
+K. Trkulja,Sundby,"Vejgaard B - Sundby, 1 - 1",2,1,1,50.0,50.0
+K. Østergaard,Hørsholm-Usserød,"Brønshøj - Hørsholm-Usserød, 0 - 2",6,2,1,33.33,16.67
+K. Østergaard,Hørsholm-Usserød,"Hørsholm-Usserød - FA 2000, 5 - 1",14,3,1,21.43,7.14
+K. Østergaard,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",5,4,2,80.0,40.0
+L. Børregaard Ravn,Sundby,"Frem - Sundby, 3 - 2",12,7,3,58.33,25.0
+L. Børregaard Ravn,Sundby,"Sundby - Odder, 3 - 0",8,4,3,50.0,37.5
+L. Børregaard Ravn,Sundby,"Vejgaard B - Sundby, 1 - 1",4,1,0,25.0,0.0
+L. Carl Svensson,FA 2000,"Vanløse - FA 2000, 4 - 0",7,3,2,42.86,28.57
+L. Chang-Andersen,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",1,0,0,0.0,0.0
+L. Dauerhøj,Næsby,"Frem - Næsby, 1 - 2",10,6,4,60.0,40.0
+L. Dauerhøj,Næsby,"Odder - Næsby, 2 - 3",14,9,4,64.29,28.57
+L. Jensen,Vejgaard B,"Vejgaard B - Sundby, 1 - 1",1,1,0,100.0,0.0
+L. Kiilerich,Brønshøj,"Holbæk B&I - Brønshøj, 5 - 3",9,5,1,55.56,11.11
+L. Kiilerich,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",2,2,2,100.0,100.0
+L. Koch,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",4,0,0,0.0,0.0
+L. Larsen,Næsby,"Frem - Næsby, 1 - 2",1,0,0,0.0,0.0
+L. Laursen,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",1,1,0,100.0,0.0
+L. Lodberg,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",5,3,1,60.0,20.0
+L. Lodberg,FA 2000,"Vanløse - FA 2000, 4 - 0",3,2,0,66.67,0.0
+L. Lysemose,Vanløse,"Lyseng - Vanløse, 1 - 2",3,2,0,66.67,0.0
+L. Lysemose,Vanløse,"Vanløse - FA 2000, 4 - 0",1,0,0,0.0,0.0
+L. Lysemose,Vanløse,"Vanløse - Nykøbing, 2 - 2",2,2,0,100.0,0.0
+L. Nyman,Nykøbing,"Hørsholm-Usserød - Nykøbing, 0 - 2",13,4,2,30.77,15.38
+L. Nyman,Nykøbing,"Nykøbing - Holbæk B&I, 1 - 0",9,5,4,55.56,44.44
+L. Nyman,Nykøbing,"Vanløse - Nykøbing, 2 - 2",9,6,2,66.67,22.22
+L. Simonsen,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",2,1,1,50.0,50.0
+L. Tinggaard Helmi,Hørsholm-Usserød,"Brønshøj - Hørsholm-Usserød, 0 - 2",4,2,0,50.0,0.0
+L. Tinggaard Helmi,Hørsholm-Usserød,"Hørsholm-Usserød - FA 2000, 5 - 1",10,6,2,60.0,20.0
+L. Tinggaard Helmi,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",9,3,1,33.33,11.11
+L. Ziegler,Vanløse,"Vanløse - Nykøbing, 2 - 2",1,0,0,0.0,0.0
+M. Atici,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",6,3,1,50.0,16.67
+M. Atici,FA 2000,"Vanløse - FA 2000, 4 - 0",3,3,1,100.0,33.33
+M. Bakhit,Brønshøj,"Brønshøj - Hørsholm-Usserød, 0 - 2",4,1,1,25.0,25.0
+M. Bakhit,Brønshøj,"Holbæk B&I - Brønshøj, 5 - 3",9,7,4,77.78,44.44
+M. Bakhit,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",1,1,0,100.0,0.0
+M. Belmaillah,Sundby,"Sundby - Odder, 3 - 0",2,2,0,100.0,0.0
+M. Belmaillah,Sundby,"Vejgaard B - Sundby, 1 - 1",1,1,0,100.0,0.0
+M. Bøje,Odder,"Odder - Lyseng, 2 - 0",4,3,1,75.0,25.0
+M. Bøje,Odder,"Odder - Næsby, 2 - 3",5,3,1,60.0,20.0
+M. Bøje,Odder,"Sundby - Odder, 3 - 0",1,1,0,100.0,0.0
+M. Clement,Odder,"Odder - Lyseng, 2 - 0",8,4,2,50.0,25.0
+M. Clement,Odder,"Odder - Næsby, 2 - 3",5,3,0,60.0,0.0
+M. Clement,Odder,"Sundby - Odder, 3 - 0",1,0,0,0.0,0.0
+M. Dahl,Nykøbing,"Hørsholm-Usserød - Nykøbing, 0 - 2",3,1,1,33.33,33.33
+M. Dahl,Nykøbing,"Nykøbing - Holbæk B&I, 1 - 0",4,2,0,50.0,0.0
+M. Frederiksen,Næsby,"Frem - Næsby, 1 - 2",1,0,0,0.0,0.0
+M. Garly Pedersen,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",4,2,1,50.0,25.0
+M. Garly Pedersen,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",7,3,2,42.86,28.57
+M. Garly Pedersen,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",4,1,0,25.0,0.0
+M. Husseinzada,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",2,2,1,100.0,50.0
+M. Husseinzada,Lyseng,"Lyseng - Vanløse, 1 - 2",7,3,0,42.86,0.0
+M. Husseinzada,Lyseng,"Odder - Lyseng, 2 - 0",3,2,1,66.67,33.33
+M. Jørgensen,Sundby,"Frem - Sundby, 3 - 2",4,1,1,25.0,25.0
+M. Jørgensen,Sundby,"Sundby - Odder, 3 - 0",1,1,0,100.0,0.0
+M. Kahr,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",1,1,0,100.0,0.0
+M. Kahr,Lyseng,"Lyseng - Vanløse, 1 - 2",4,1,0,25.0,0.0
+M. Kahr,Lyseng,"Odder - Lyseng, 2 - 0",6,3,0,50.0,0.0
+M. Krogh Hansen,Sundby,"Frem - Sundby, 3 - 2",4,4,0,100.0,0.0
+M. Krogh Hansen,Sundby,"Sundby - Odder, 3 - 0",4,1,1,25.0,25.0
+M. Krogh Hansen,Sundby,"Vejgaard B - Sundby, 1 - 1",5,4,0,80.0,0.0
+M. Kruse,Frem,"Frem - Næsby, 1 - 2",1,1,0,100.0,0.0
+M. Kruse,Frem,"Frem - Sundby, 3 - 2",3,2,0,66.67,0.0
+M. Kunckel,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",1,0,0,0.0,0.0
+M. Kunckel,Vejgaard B,"Vejgaard B - Sundby, 1 - 1",1,0,0,0.0,0.0
+M. Kunnerup Jensen,Næsby,"Frem - Næsby, 1 - 2",1,0,0,0.0,0.0
+M. Kunnerup Jensen,Næsby,"Odder - Næsby, 2 - 3",2,1,1,50.0,50.0
+M. Larsen,Brønshøj,"Brønshøj - Hørsholm-Usserød, 0 - 2",8,6,1,75.0,12.5
+M. Larsen,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",3,1,0,33.33,0.0
+M. Larsen,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",5,3,1,60.0,20.0
+M. Larsen,Vejgaard B,"Vejgaard B - Sundby, 1 - 1",1,0,0,0.0,0.0
+M. Lund Frese,Vanløse,"Vanløse - FA 2000, 4 - 0",3,1,1,33.33,33.33
+M. Lynge,Brønshøj,"Brønshøj - Hørsholm-Usserød, 0 - 2",10,6,2,60.0,20.0
+M. Lynge,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",8,4,2,50.0,25.0
+M. Mikkelsen,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",3,2,1,66.67,33.33
+M. Mikkelsen,Lyseng,"Lyseng - Vanløse, 1 - 2",2,0,0,0.0,0.0
+M. Mikkelsen,Lyseng,"Odder - Lyseng, 2 - 0",2,2,1,100.0,50.0
+M. Möller,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",2,2,1,100.0,50.0
+M. Nielsen,Nykøbing,"Vanløse - Nykøbing, 2 - 2",2,2,0,100.0,0.0
+M. Nykjær,Nykøbing,"Hørsholm-Usserød - Nykøbing, 0 - 2",3,2,0,66.67,0.0
+M. Olsen,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",1,1,1,100.0,100.0
+M. Olsen,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",1,0,0,0.0,0.0
+M. Olsen,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",3,2,0,66.67,0.0
+M. Porsgrunn,Brønshøj,"Brønshøj - Hørsholm-Usserød, 0 - 2",4,3,0,75.0,0.0
+M. Porsgrunn,Brønshøj,"Holbæk B&I - Brønshøj, 5 - 3",6,3,0,50.0,0.0
+M. Qvarnstrøm,Vanløse,"Lyseng - Vanløse, 1 - 2",4,3,2,75.0,50.0
+M. Qvarnstrøm,Vanløse,"Vanløse - FA 2000, 4 - 0",9,8,5,88.89,55.56
+M. Qvarnstrøm,Vanløse,"Vanløse - Nykøbing, 2 - 2",7,4,3,57.14,42.86
+M. Rasmussen,Frem,"Frem - Næsby, 1 - 2",4,2,1,50.0,25.0
+M. Rasmussen,Frem,"Frem - Sundby, 3 - 2",7,5,3,71.43,42.86
+M. Ravn,Brønshøj,"Holbæk B&I - Brønshøj, 5 - 3",1,1,1,100.0,100.0
+M. Rosenlund,Hørsholm-Usserød,"Hørsholm-Usserød - FA 2000, 5 - 1",3,1,1,33.33,33.33
+M. Rosenlund,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",1,1,0,100.0,0.0
+M. Schou,Næsby,"Frem - Næsby, 1 - 2",2,1,1,50.0,50.0
+M. Schou,Næsby,"Odder - Næsby, 2 - 3",2,1,1,50.0,50.0
+M. Sjørslev,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",3,3,1,100.0,33.33
+M. Sjørslev,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",1,1,0,100.0,0.0
+M. Sjørslev,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",2,2,0,100.0,0.0
+M. Sonne,Vanløse,"Lyseng - Vanløse, 1 - 2",2,1,0,50.0,0.0
+M. Sonne,Vanløse,"Vanløse - FA 2000, 4 - 0",1,0,0,0.0,0.0
+M. Sonne,Vanløse,"Vanløse - Nykøbing, 2 - 2",2,1,1,50.0,50.0
+M. Stangerup,Næsby,"Frem - Næsby, 1 - 2",5,5,1,100.0,20.0
+M. Stangerup,Næsby,"Odder - Næsby, 2 - 3",5,2,0,40.0,0.0
+M. Stokbro,Vejgaard B,"Vejgaard B - Sundby, 1 - 1",3,0,0,0.0,0.0
+M. Vandal,Sundby,"Frem - Sundby, 3 - 2",4,3,0,75.0,0.0
+M. Vandal,Sundby,"Sundby - Odder, 3 - 0",2,0,0,0.0,0.0
+M. Vandal,Sundby,"Vejgaard B - Sundby, 1 - 1",7,5,2,71.43,28.57
+M. Vinterberg,Frem,"Frem - Næsby, 1 - 2",1,0,0,0.0,0.0
+M. Wilkens,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",2,1,0,50.0,0.0
+M. Winkel,Frem,"Frem - Næsby, 1 - 2",11,7,2,63.64,18.18
+M. Zuberovski,Sundby,"Frem - Sundby, 3 - 2",2,2,1,100.0,50.0
+N.  Hedegaard Bregenov,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",4,1,0,25.0,0.0
+N.  Hedegaard Bregenov,Lyseng,"Lyseng - Vanløse, 1 - 2",2,1,1,50.0,50.0
+N.  Hedegaard Bregenov,Lyseng,"Odder - Lyseng, 2 - 0",4,2,1,50.0,25.0
+N. Bentsen,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",8,7,3,87.5,37.5
+N. Bentsen,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",2,1,1,50.0,50.0
+N. Bentsen,Holbæk B&I,"Nykøbing - Holbæk B&I, 1 - 0",2,1,0,50.0,0.0
+N. Brøndum,Frem,"Frem - Næsby, 1 - 2",9,6,2,66.67,22.22
+N. Faizi,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",4,1,1,25.0,25.0
+N. Faizi,Lyseng,"Lyseng - Vanløse, 1 - 2",3,2,0,66.67,0.0
+N. Faizi,Lyseng,"Odder - Lyseng, 2 - 0",6,3,1,50.0,16.67
+N. Graini,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",5,1,0,20.0,0.0
+N. Jessen,Hørsholm-Usserød,"Hørsholm-Usserød - FA 2000, 5 - 1",1,1,1,100.0,100.0
+N. Jessen,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",1,1,0,100.0,0.0
+N. Koch Fazal,Hørsholm-Usserød,"Brønshøj - Hørsholm-Usserød, 0 - 2",1,0,0,0.0,0.0
+N. Koch Fazal,Hørsholm-Usserød,"Hørsholm-Usserød - FA 2000, 5 - 1",3,1,0,33.33,0.0
+N. Koch Fazal,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",1,0,0,0.0,0.0
+N. Korsbakke Mortensen,Vanløse,"Lyseng - Vanløse, 1 - 2",2,2,0,100.0,0.0
+N. Korsbakke Mortensen,Vanløse,"Vanløse - FA 2000, 4 - 0",4,3,2,75.0,50.0
+N. Korsbakke Mortensen,Vanløse,"Vanløse - Nykøbing, 2 - 2",9,8,1,88.89,11.11
+N. Lassen,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",3,0,0,0.0,0.0
+N. Lassen,Vejgaard B,"Vejgaard B - Sundby, 1 - 1",4,2,1,50.0,25.0
+N. Pedersen,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",3,2,1,66.67,33.33
+N. Pedersen,Vejgaard B,"Vejgaard B - Sundby, 1 - 1",1,0,0,0.0,0.0
+N. Sauer,Odder,"Odder - Lyseng, 2 - 0",3,1,1,33.33,33.33
+N. Sauer,Odder,"Odder - Næsby, 2 - 3",9,5,2,55.56,22.22
+N. Sauer,Odder,"Sundby - Odder, 3 - 0",1,1,0,100.0,0.0
+N. Sejr,Frem,"Frem - Næsby, 1 - 2",8,5,1,62.5,12.5
+N. Sejr,Frem,"Frem - Sundby, 3 - 2",4,3,1,75.0,25.0
+N. Sekula,Nykøbing,"Nykøbing - Holbæk B&I, 1 - 0",5,4,0,80.0,0.0
+N. Simonsen,Lyseng,"Lyseng - Vanløse, 1 - 2",1,0,0,0.0,0.0
+N. Thomsen,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",8,6,1,75.0,12.5
+N. Thomsen,FA 2000,"Vanløse - FA 2000, 4 - 0",6,3,1,50.0,16.67
+O. Angus,Nykøbing,"Hørsholm-Usserød - Nykøbing, 0 - 2",5,3,1,60.0,20.0
+O. Angus,Nykøbing,"Nykøbing - Holbæk B&I, 1 - 0",4,4,2,100.0,50.0
+O. Angus,Nykøbing,"Vanløse - Nykøbing, 2 - 2",1,0,0,0.0,0.0
+O. Gaarn,Næsby,"Odder - Næsby, 2 - 3",5,2,0,40.0,0.0
+O. Gärtig,Nykøbing,"Hørsholm-Usserød - Nykøbing, 0 - 2",11,7,2,63.64,18.18
+O. Gärtig,Nykøbing,"Nykøbing - Holbæk B&I, 1 - 0",4,3,2,75.0,50.0
+O. Gärtig,Nykøbing,"Vanløse - Nykøbing, 2 - 2",1,0,0,0.0,0.0
+O. Jakobsen,Nykøbing,"Hørsholm-Usserød - Nykøbing, 0 - 2",5,2,1,40.0,20.0
+O. Jakobsen,Nykøbing,"Nykøbing - Holbæk B&I, 1 - 0",3,2,1,66.67,33.33
+O. Koertz,Næsby,"Frem - Næsby, 1 - 2",5,2,2,40.0,40.0
+O. Koertz,Næsby,"Odder - Næsby, 2 - 3",18,12,4,66.67,22.22
+O. Pedersen,Odder,"Odder - Lyseng, 2 - 0",2,2,1,100.0,50.0
+O. Pedersen,Odder,"Odder - Næsby, 2 - 3",4,3,0,75.0,0.0
+O. Pedersen,Odder,"Sundby - Odder, 3 - 0",6,6,4,100.0,66.67
+O. Svendsen,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",1,0,0,0.0,0.0
+O. Svendsen,Nykøbing,"Hørsholm-Usserød - Nykøbing, 0 - 2",6,5,1,83.33,16.67
+O. Svendsen,Nykøbing,"Nykøbing - Holbæk B&I, 1 - 0",4,2,1,50.0,25.0
+O. Svendsen,Nykøbing,"Vanløse - Nykøbing, 2 - 2",3,2,2,66.67,66.67
+P. Allentoft,Vanløse,"Lyseng - Vanløse, 1 - 2",1,0,0,0.0,0.0
+P. Blichfeldt,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",9,7,1,77.78,11.11
+P. Hallundbæk,Næsby,"Odder - Næsby, 2 - 3",1,0,0,0.0,0.0
+P. Højgaard,Vejgaard B,"Vejgaard B - Brønshøj, 3 - 0",3,1,0,33.33,0.0
+P. Højgaard,Vejgaard B,"Vejgaard B - Sundby, 1 - 1",3,2,0,66.67,0.0
+P. Larsen,Brønshøj,"Brønshøj - Hørsholm-Usserød, 0 - 2",3,2,0,66.67,0.0
+P. Larsen,Brønshøj,"Holbæk B&I - Brønshøj, 5 - 3",5,5,1,100.0,20.0
+P. Larsen,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",3,3,0,100.0,0.0
+P. Mang,Lyseng,"Odder - Lyseng, 2 - 0",2,0,0,0.0,0.0
+P. Oslev,Frem,"Frem - Næsby, 1 - 2",5,2,2,40.0,40.0
+P. Oslev,Frem,"Frem - Sundby, 3 - 2",3,2,1,66.67,33.33
+R. Berner,Nykøbing,"Nykøbing - Holbæk B&I, 1 - 0",1,0,0,0.0,0.0
+R. Berner,Nykøbing,"Vanløse - Nykøbing, 2 - 2",2,1,1,50.0,50.0
+R. Hansen,Frem,"Frem - Næsby, 1 - 2",3,2,0,66.67,0.0
+R. Hansen,Frem,"Frem - Sundby, 3 - 2",1,1,0,100.0,0.0
+R. Jensen,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",7,1,0,14.29,0.0
+R. Knudsen,Næsby,"Frem - Næsby, 1 - 2",7,4,2,57.14,28.57
+R. Larsen,Næsby,"Frem - Næsby, 1 - 2",4,4,1,100.0,25.0
+R. Larsen,Næsby,"Odder - Næsby, 2 - 3",2,1,0,50.0,0.0
+R. Minerba,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",12,6,2,50.0,16.67
+R. Steuch,Vanløse,"Lyseng - Vanløse, 1 - 2",8,5,2,62.5,25.0
+R. Steuch,Vanløse,"Vanløse - FA 2000, 4 - 0",5,4,0,80.0,0.0
+R. Wedege,FA 2000,"Vanløse - FA 2000, 4 - 0",3,2,0,66.67,0.0
+R. Årup Jørgensen,Hørsholm-Usserød,"Brønshøj - Hørsholm-Usserød, 0 - 2",5,2,2,40.0,40.0
+R. Årup Jørgensen,Hørsholm-Usserød,"Hørsholm-Usserød - FA 2000, 5 - 1",6,4,2,66.67,33.33
+R. Årup Jørgensen,Hørsholm-Usserød,"Hørsholm-Usserød - Nykøbing, 0 - 2",5,2,2,40.0,40.0
+S. Birch Andersen,Lyseng,"Holbæk B&I - Lyseng, 6 - 0",3,2,0,66.67,0.0
+S. Bugge Jepsen,Odder,"Odder - Lyseng, 2 - 0",4,3,3,75.0,75.0
+S. Bugge Jepsen,Odder,"Odder - Næsby, 2 - 3",8,6,3,75.0,37.5
+S. Gustav,Lyseng,"Lyseng - Vanløse, 1 - 2",3,1,0,33.33,0.0
+S. Gustav,Lyseng,"Odder - Lyseng, 2 - 0",6,1,0,16.67,0.0
+S. Holden,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",8,4,2,50.0,25.0
+S. Lauesen,Hørsholm-Usserød,"Brønshøj - Hørsholm-Usserød, 0 - 2",3,3,1,100.0,33.33
+S. Olsen,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",1,1,1,100.0,100.0
+S. Pedersen,Vanløse,"Lyseng - Vanløse, 1 - 2",4,3,0,75.0,0.0
+S. Pedersen,Vanløse,"Vanløse - Nykøbing, 2 - 2",2,0,0,0.0,0.0
+S. Weber Pedersen,Vanløse,"Vanløse - FA 2000, 4 - 0",3,3,2,100.0,66.67
+T. Egholm,Vanløse,"Vanløse - Nykøbing, 2 - 2",2,2,1,100.0,50.0
+T. Noer,Brønshøj,"Holbæk B&I - Brønshøj, 5 - 3",4,4,1,100.0,25.0
+T. Noer,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",2,2,1,100.0,50.0
+T. Sommer,FA 2000,"Vanløse - FA 2000, 4 - 0",8,5,3,62.5,37.5
+T. Søderstrøm,Frem,"Frem - Næsby, 1 - 2",2,2,1,100.0,50.0
+V. Bille,Nykøbing,"Nykøbing - Holbæk B&I, 1 - 0",1,1,0,100.0,0.0
+V. Bille,Nykøbing,"Vanløse - Nykøbing, 2 - 2",1,0,0,0.0,0.0
+V. Christensen,Brønshøj,"Brønshøj - Hørsholm-Usserød, 0 - 2",4,3,0,75.0,0.0
+V. Christensen,Brønshøj,"Holbæk B&I - Brønshøj, 5 - 3",1,0,0,0.0,0.0
+V. Christensen,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",1,1,0,100.0,0.0
+V. Høgh,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",3,3,3,100.0,100.0
+V. Høgh,FA 2000,"Vanløse - FA 2000, 4 - 0",5,4,2,80.0,40.0
+V. Mikkelsen,FA 2000,"Vanløse - FA 2000, 4 - 0",1,1,1,100.0,100.0
+V. Mølgaard Eskildsen,Nykøbing,"Hørsholm-Usserød - Nykøbing, 0 - 2",6,3,0,50.0,0.0
+V. Mølgaard Eskildsen,Nykøbing,"Vanløse - Nykøbing, 2 - 2",6,3,0,50.0,0.0
+V. Svensson,Brønshøj,"Brønshøj - Hørsholm-Usserød, 0 - 2",10,8,2,80.0,20.0
+V. Svensson,Brønshøj,"Holbæk B&I - Brønshøj, 5 - 3",10,7,4,70.0,40.0
+V. Svensson,Brønshøj,"Vejgaard B - Brønshøj, 3 - 0",3,2,1,66.67,33.33
+V. Vestby,Næsby,"Frem - Næsby, 1 - 2",9,6,4,66.67,44.44
+V. Vestby,Næsby,"Odder - Næsby, 2 - 3",5,3,0,60.0,0.0
+W. Kattrup,Vanløse,"Lyseng - Vanløse, 1 - 2",6,6,1,100.0,16.67
+W. Kattrup,Vanløse,"Vanløse - FA 2000, 4 - 0",5,4,0,80.0,0.0
+W. Kattrup,Vanløse,"Vanløse - Nykøbing, 2 - 2",5,4,0,80.0,0.0
+W. Lohse,Nykøbing,"Hørsholm-Usserød - Nykøbing, 0 - 2",2,2,0,100.0,0.0
+W. Peitersen,FA 2000,"Hørsholm-Usserød - FA 2000, 5 - 1",5,4,1,80.0,20.0
+W. Vidar,Odder,"Odder - Lyseng, 2 - 0",3,1,0,33.33,0.0
+W. Vidar,Odder,"Odder - Næsby, 2 - 3",4,3,0,75.0,0.0
+W. Vidar,Odder,"Sundby - Odder, 3 - 0",1,0,0,0.0,0.0
+Y. Kyei,Sundby,"Sundby - Odder, 3 - 0",1,0,0,0.0,0.0
+Y. Mokdad,Holbæk B&I,"Holbæk B&I - Brønshøj, 5 - 3",3,3,1,100.0,33.33
+Y. Mokdad,Holbæk B&I,"Holbæk B&I - Lyseng, 6 - 0",4,1,0,25.0,0.0
