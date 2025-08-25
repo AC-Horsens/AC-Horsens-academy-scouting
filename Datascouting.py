@@ -104,11 +104,11 @@ def Process_data(events,df_xg,df_matchstats,df_groundduels):
 
             # Add 'mean' for all other columns except the groupby columns and 'minutesonfield'
             for col in df_balanced_central_defendertotal.columns:
-                if col not in ['shortname', 'teamname', 'minutesonfield total']:
+                if col not in ['SHORTNAME','TEAMNAME', 'minutesonfield total']:
                     aggregation_functions[col] = 'mean'
 
             # Apply the groupby with the specified aggregation functions
-            df_balanced_central_defendertotal = df_balanced_central_defendertotal.groupby(['shortname', 'teamname']).agg(aggregation_functions).reset_index()
+            df_balanced_central_defendertotal = df_balanced_central_defendertotal.groupby(['SHORTNAME','TEAMNAME']).agg(aggregation_functions).reset_index()
             df_balanced_central_defendertotal = df_balanced_central_defendertotal[df_balanced_central_defendertotal['minutesonfield total'].astype(int) >= minutter_total]
             df_balanced_central_defendertotal = df_balanced_central_defendertotal.sort_values('Total score',ascending = False)
             st.dataframe(df_balanced_central_defendertotal,hide_index=True)
