@@ -10,6 +10,7 @@ leagues = ['U17 Division', 'U19 Division', 'U15 Ligaen', 'U17 Ligaen', 'U19 Liga
 league = st.selectbox('Choose league',leagues)
 
 def load_data ():
+    events = pd.read_csv(f'{league}_events.csv')
     df_matchstats = pd.read_csv(f'{league}_matchstats.csv')
     df_xg = pd.read_csv(f'{league}_xg.csv')
     df_groundduels = pd.read_csv(f'{league}_groundduels.csv')
