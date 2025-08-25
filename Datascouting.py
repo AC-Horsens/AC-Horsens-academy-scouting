@@ -30,8 +30,11 @@ def Process_data(events,df_xg,df_matchstats,df_groundduels):
         df_unique = df.drop_duplicates(column).copy()
         df_unique.loc[:, score_column] = pd.qcut(-df_unique[column], q=10, labels=False, duplicates='drop') + 1
         return df.merge(df_unique[[column, score_column]], on=column, how='left')
-    minutter_kamp = 30
-    minutter_total = 160
+    col1,col2 = st.columns(2)
+    with col1:
+        minutter_kamp = st.number_input('Minutes per match')
+    with col2:
+        minutter_total = st.number_input('Total minutes')
     
     df_matchstats = df_matchstats[['SHORTNAME','TEAMNAME','MATCHLABEL','POSITION1CODE','MINUTESONFIELD','SUCCESSFULPASSESTOFINALTHIRD_AVERAGE','FIELDAERIALDUELSWON_PERCENT','NEWSUCCESSFULDRIBBLES_PERCENT','SUCCESSFULTHROUGHPASSES_AVERAGE','DUELSWON_PERCENT','SUCCESSFULPASSESTOFINALTHIRD_PERCENT','XGASSIST','SUCCESSFULCROSSES_AVERAGE','SUCCESSFULPROGRESSIVEPASSES_AVERAGE','PROGRESSIVERUN','ACCELERATIONS','SUCCESSFULPASSES_PERCENT','BALLRECOVERIES','INTERCEPTIONS','DEFENSIVEDUELS','SUCCESSFULDEFENSIVEACTION','FORWARDPASSES','SUCCESSFULFORWARDPASSES_AVERAGE','TOUCHINBOX','XGSHOT','SUCCESSFULKEYPASSES_AVERAGE','SUCCESSFULATTACKINGACTIONS','SHOTASSISTS','BALLLOSSES']]
     df_scouting = df_xg.merge(df_matchstats,how='right')
