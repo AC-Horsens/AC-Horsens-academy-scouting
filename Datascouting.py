@@ -99,17 +99,17 @@ def Process_data(events,df_xg,df_matchstats,df_groundduels):
         with st.expander('Total'):       
             df_balanced_central_defendertotal = df_balanced_central_defendertotal[['SHORTNAME','TEAMNAME','POSITION1CODE','MINUTESONFIELD','Defending_','Possession_value_added','Passing_','Total score']]
             aggregation_functions = { 
-                'minutesonfield total': 'sum'  # Sum for minutesonfield
+                'MINUTESONFIELD total': 'sum'  # Sum for minutesonfield
             }
 
             # Add 'mean' for all other columns except the groupby columns and 'minutesonfield'
             for col in df_balanced_central_defendertotal.columns:
-                if col not in ['SHORTNAME','TEAMNAME', 'minutesonfield total']:
+                if col not in ['SHORTNAME','TEAMNAME', 'MINUTESONFIELD total']:
                     aggregation_functions[col] = 'mean'
 
             # Apply the groupby with the specified aggregation functions
             df_balanced_central_defendertotal = df_balanced_central_defendertotal.groupby(['SHORTNAME','TEAMNAME']).agg(aggregation_functions).reset_index()
-            df_balanced_central_defendertotal = df_balanced_central_defendertotal[df_balanced_central_defendertotal['minutesonfield total'].astype(int) >= minutter_total]
+            df_balanced_central_defendertotal = df_balanced_central_defendertotal[df_balanced_central_defendertotal['MINUTESONFIELD total'].astype(int) >= minutter_total]
             df_balanced_central_defendertotal = df_balanced_central_defendertotal.sort_values('Total score',ascending = False)
             st.dataframe(df_balanced_central_defendertotal,hide_index=True)
         return df_balanced_central_defender
