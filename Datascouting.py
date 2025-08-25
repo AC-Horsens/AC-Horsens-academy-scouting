@@ -438,6 +438,6 @@ def Process_data(events,df_xg,df_matchstats,df_groundduels):
     for selected_tab in selected_tabs:
         overskrifter_til_menu[selected_tab]()
 
-df_matchstats,df_groundduels,df_xg = load_data()
+events,df_matchstats,df_groundduels,df_xg = load_data()
 
 Process_data(events,df_xg,df_matchstats,df_groundduels)
