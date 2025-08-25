@@ -15,41 +15,37 @@ def load_data ():
     df_groundduels = pd.read_csv(f'{league}_groundduels.csv')
     return df_matchstats,df_groundduels,df_xg
 
-def Process_data(df_matchstats,df_groundduels,df_xg):
-    xg = df_xg[['shortname','matchlabel','shotxg']]
-    xg['shotxg'] = xg['shotxg'].astype(float)
-    xg = xg.groupby(['shortname','matchlabel']).sum().reset_index()
-    df_scouting = xg.merge(df_matchstats, on=['shortname', 'matchlabel'], how='inner')
-    
+def Process_data(events,df_xg,df_matchstats,df_groundduels):
+    xg = events[['SHORTNAME','MATCHLABEL','SHOTXG']]
+    xg['SHOTXG'] = xg['SHOTXG'].astype(float)
+    xg = xg.groupby(['SHORTNAME','MATCHLABEL']).sum().reset_index()
+    df_scouting = xg.merge(df_matchstats, on=['SHORTNAME', 'MATCHLABEL'], how='inner')
     def calculate_score(df, column, score_column):
         df_unique = df.drop_duplicates(column).copy()
-        df_unique.loc[:, score_column] = pd.qcut(df_unique[column], q=10, labels=False, duplicates='raise') + 1
+        df_unique.loc[:, score_column] = pd.qcut(df_unique[column], q=10, labels=False, duplicates='drop') + 1
         return df.merge(df_unique[[column, score_column]], on=column, how='left')
     
     def calculate_opposite_score(df, column, score_column):
         df_unique = df.drop_duplicates(column).copy()
-        df_unique.loc[:, score_column] = pd.qcut(-df_unique[column], q=10, labels=False, duplicates='raise') + 1
+        df_unique.loc[:, score_column] = pd.qcut(-df_unique[column], q=10, labels=False, duplicates='drop') + 1
         return df.merge(df_unique[[column, score_column]], on=column, how='left')
-    col1,col2 = st.columns(2)
-    with col1:
-        minutter_kamp = st.number_input('Minutes per match')
-    with col2:
-        minutter_total = st.number_input('Minutes total')
+    minutter_kamp = 30
+    minutter_total = 160
     
-    df_matchstats = df_matchstats[['shortname','teamname','matchlabel','position1code','minutesonfield','successfulpassestofinalthird_average','fieldaerialduelswon_percent','newsuccessfuldribbles_percent','successfulthroughpasses_average','newduelswon_percent','successfulpassestofinalthird_percent','xgassist','crosses','progressivepasses','progressiverun','accelerations','passestofinalthird','successfulprogressivepasses_percent','successfulpasses_percent','ballrecoveries','interceptions','defensiveduels','successfuldefensiveaction','forwardpasses','successfulforwardpasses_average','touchinbox','xgshot','keypasses','successfulattackingactions','shotassists','losses']]
+    df_matchstats = df_matchstats[['SHORTNAME','TEAMNAME','MATCHLABEL','POSITION1CODE','MINUTESONFIELD','SUCCESSFULPASSESTOFINALTHIRD_AVERAGE','FIELDAERIALDUELSWON_PERCENT','NEWSUCCESSFULDRIBBLES_PERCENT','SUCCESSFULTHROUGHPASSES_AVERAGE','DUELSWON_PERCENT','SUCCESSFULPASSESTOFINALTHIRD_PERCENT','XGASSIST','SUCCESSFULCROSSES_AVERAGE','SUCCESSFULPROGRESSIVEPASSES_AVERAGE','PROGRESSIVERUN','ACCELERATIONS','SUCCESSFULPASSES_PERCENT','BALLRECOVERIES','INTERCEPTIONS','DEFENSIVEDUELS','SUCCESSFULDEFENSIVEACTION','FORWARDPASSES','SUCCESSFULFORWARDPASSES_AVERAGE','TOUCHINBOX','XGSHOT','SUCCESSFULKEYPASSES_AVERAGE','SUCCESSFULATTACKINGACTIONS','SHOTASSISTS','BALLLOSSES']]
     df_scouting = df_xg.merge(df_matchstats,how='right')
-    #df_scouting = df_groundduels.merge(df_scouting,on=['shortname','teamname', 'matchlabel'],how='right')
-    df_scouting['penAreaEntries_per90&crosses%shotassists'] = ((df_scouting['passestofinalthird'].astype(float)+df_scouting['crosses'].astype(float) + df_scouting['xgassist'].astype(float))/ df_scouting['minutesonfield'].astype(float)) * 90
+    df_scouting = df_groundduels.merge(df_scouting,on=['SHORTNAME','TEAMNAME', 'MATCHLABEL'],how='right').reset_index()
+    df_scouting['penAreaEntries_per90&crosses%shotassists'] = ((df_scouting['SUCCESSFULPASSESTOFINALTHIRD_AVERAGE'].astype(float)+df_scouting['SUCCESSFULCROSSES_AVERAGE'].astype(float) + df_scouting['XGASSIST'].astype(float))/ df_scouting['MINUTESONFIELD'].astype(float)) * 90
 
     df_scouting.fillna(0, inplace=True)
-    df_scouting = df_scouting.drop_duplicates(subset=['shortname', 'teamname', 'position1code','matchlabel'])
+    df_scouting = df_scouting.drop_duplicates(subset=['SHORTNAME', 'TEAMNAME', 'POSITION1CODE','MATCHLABEL'])
 
     def calculate_match_xg(df_scouting):
         # Calculate the total match_xg for each match_id
-        df_scouting['match_xg'] = df_scouting.groupby('matchlabel')['shotxg'].transform('sum')
+        df_scouting['match_xg'] = df_scouting.groupby('MATCHLABEL')['SHOTXG'].transform('sum')
         
         # Calculate the total team_xg for each team in each match
-        df_scouting['team_xg'] = df_scouting.groupby(['teamname', 'matchlabel'])['shotxg'].transform('sum')
+        df_scouting['team_xg'] = df_scouting.groupby(['TEAMNAME', 'MATCHLABEL'])['SHOTXG'].transform('sum')
         
         # Calculate opponents_xg as match_xg - team_xg
         df_scouting['opponents_xg'] = df_scouting['match_xg'] - df_scouting['team_xg']
@@ -58,39 +54,43 @@ def Process_data(df_matchstats,df_groundduels,df_xg):
         return df_scouting
 
     df_scouting = calculate_match_xg(df_scouting)
-    df_scouting.fillna(0, inplace=True)    
+    df_scouting.fillna(0, inplace=True)
     def balanced_central_defender():
-        st.title('CB')
-        df_balanced_central_defender = df_scouting[df_scouting['position1code'].str.contains('cb', na=False)]
-        df_balanced_central_defender['minutesonfield'] = df_balanced_central_defender['minutesonfield'].astype(int)
-        df_balanced_central_defender = df_balanced_central_defender[df_balanced_central_defender['minutesonfield'].astype(int) >= minutter_kamp]
+        df_balanced_central_defender = df_scouting[df_scouting['POSITION1CODE'].notna() & df_scouting['POSITION1CODE'].str.contains('cb')]
+        df_balanced_central_defender['MINUTESONFIELD'] = df_balanced_central_defender['MINUTESONFIELD'].astype(int)
+        df_balanced_central_defender = df_balanced_central_defender[df_balanced_central_defender['MINUTESONFIELD'].astype(int) >= minutter_kamp]
         df_balanced_central_defender = calculate_opposite_score(df_balanced_central_defender,'opponents_xg', 'opponents xg score')
         
-        #df_balanced_central_defender = calculate_score(df_balanced_central_defender,'totalDuels', 'totalDuels score')
-        #df_balanced_central_defender = calculate_score(df_balanced_central_defender,'stoppedProgressPercentage', 'stoppedProgressPercentage score')
-        #df_balanced_central_defender = calculate_score(df_balanced_central_defender,'recoveredPossessionPercentage', 'recoveredPossessionPercentage score')
-        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'newduelswon_percent', 'percent_duelsWon score')
-        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'interceptions', 'average_interceptions score')
-        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'ballrecoveries', 'ballRecovery score')
-        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'fieldaerialduelswon_percent', 'percent_aerialDuelsWon score')
-        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'successfulpassestofinalthird_average', 'average_successfulPassesToFinalThird score')
-        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'successfulpasses_percent', 'percent_successfulPasses score')
-        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'successfulpassestofinalthird_percent', 'percent_successfulPassesToFinalThird score')
-        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'progressivepasses', 'average_progressivePasses score')
-        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'successfulprogressivepasses_percent', 'percent_successfulProgressivePasses score')
-        df_balanced_central_defender = calculate_opposite_score(df_balanced_central_defender,'losses','average_losses score')
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender,'total_duels', 'total_duels score')
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender,'stoppedprogress_percent', 'stoppedprogress_percent score')
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender,'recoveredpossession_percent', 'recoveredpossession_percent score')
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'DUELSWON_PERCENT', 'DUELSWON_PERCENT score')
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'INTERCEPTIONS', 'INTERCEPTIONS score')
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'BALLRECOVERIES', 'ballRecovery score')
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender,'FIELDAERIALDUELSWON_PERCENT', 'FIELDAERIALDUELSWON_PERCENT score')
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender,'SUCCESSFULPASSESTOFINALTHIRD_AVERAGE', 'SUCCESSFULPASSESTOFINALTHIRD_AVERAGE score')
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'SUCCESSFULPASSES_PERCENT', 'SUCCESSFULPASSES_PERCENT score')
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'SUCCESSFULPASSESTOFINALTHIRD_PERCENT', 'SUCCESSFULPASSESTOFINALTHIRD_PERCENT score')
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'SUCCESSFULPROGRESSIVEPASSES_AVERAGE', 'SUCCESSFULPROGRESSIVEPASSES_AVERAGE score')
+        df_balanced_central_defender = calculate_opposite_score(df_balanced_central_defender,'BALLLOSSES','BALLLOSSES score')
 
-        df_balanced_central_defender['Defending (Dominant 1v1 defender)'] = df_balanced_central_defender[['percent_duelsWon score','opponents xg score','opponents xg score','percent_aerialDuelsWon score', 'average_interceptions score', 'average_interceptions score', 'ballRecovery score']].mean(axis=1)
-        df_balanced_central_defender['Possession value added (Progressive Under Pressure)'] = df_balanced_central_defender[['average_successfulPassesToFinalThird score','percent_successfulPassesToFinalThird score','percent_successfulProgressivePasses score','percent_successfulProgressivePasses score','average_progressivePasses score','average_losses score']].mean(axis=1)
-        df_balanced_central_defender['Passing (Game intelligence)'] = df_balanced_central_defender[['percent_successfulPasses score', 'percent_successfulPasses score','percent_successfulPassesToFinalThird score']].mean(axis=1)
-        df_balanced_central_defender['Total score'] = df_balanced_central_defender[['Defending (Dominant 1v1 defender)','Defending (Dominant 1v1 defender)','Possession value added (Progressive Under Pressure)','Passing (Game intelligence)']].mean(axis=1)
+        df_balanced_central_defender['Defending'] = df_balanced_central_defender[['DUELSWON_PERCENT score','total_duels score','stoppedprogress_percent score','stoppedprogress_percent score','recoveredpossession_percent score','stoppedprogress_percent score','opponents xg score','opponents xg score','FIELDAERIALDUELSWON_PERCENT score', 'INTERCEPTIONS score', 'INTERCEPTIONS score', 'ballRecovery score']].mean(axis=1)
+        df_balanced_central_defender['Possession value added'] = df_balanced_central_defender[['SUCCESSFULPASSESTOFINALTHIRD_AVERAGE score','SUCCESSFULPASSESTOFINALTHIRD_PERCENT score','SUCCESSFULPROGRESSIVEPASSES_AVERAGE score','SUCCESSFULPROGRESSIVEPASSES_AVERAGE score','SUCCESSFULPROGRESSIVEPASSES_AVERAGE score','BALLLOSSES score']].mean(axis=1)
+        df_balanced_central_defender['Passing'] = df_balanced_central_defender[['SUCCESSFULPASSES_PERCENT score', 'SUCCESSFULPASSES_PERCENT score','SUCCESSFULPASSESTOFINALTHIRD_PERCENT score']].mean(axis=1)
 
-        df_balanced_central_defender = df_balanced_central_defender[['shortname','teamname','position1code','matchlabel','minutesonfield','Defending (Dominant 1v1 defender)','Possession value added (Progressive Under Pressure)','Passing (Game intelligence)','Total score']]
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'Defending', 'Defending_')
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'Passing', 'Passing_')
+        df_balanced_central_defender = calculate_score(df_balanced_central_defender, 'Possession value added', 'Possession_value_added')
+
+
+        df_balanced_central_defender['Total score'] = df_balanced_central_defender[['Defending_','Defending_','Possession_value_added','Passing_']].mean(axis=1)
+
+        df_balanced_central_defender = df_balanced_central_defender[['SHORTNAME','TEAMNAME','POSITION1CODE','MATCHLABEL','MINUTESONFIELD','Defending_','Possession_value_added','Passing_','Total score']]
         
-        df_balanced_central_defendertotal = df_balanced_central_defender[['shortname','teamname','position1code','minutesonfield','Defending (Dominant 1v1 defender)','Possession value added (Progressive Under Pressure)','Passing (Game intelligence)','Total score']]
-        df_balanced_central_defendertotal = df_balanced_central_defendertotal.groupby(['shortname','teamname','position1code']).mean().reset_index()
-        minutter = df_balanced_central_defender.groupby(['shortname', 'teamname','position1code'])['minutesonfield'].sum().astype(float).reset_index()
-        df_balanced_central_defendertotal['minutesonfield total'] = minutter['minutesonfield']
+        df_balanced_central_defendertotal = df_balanced_central_defender[['SHORTNAME','TEAMNAME','POSITION1CODE','MINUTESONFIELD','Defending_','Possession_value_added','Passing_','Total score']]
+        df_balanced_central_defendertotal = df_balanced_central_defendertotal.groupby(['SHORTNAME','TEAMNAME','POSITION1CODE']).mean().reset_index()
+        minutter = df_balanced_central_defender.groupby(['SHORTNAME', 'TEAMNAME','POSITION1CODE'])['MINUTESONFIELD'].sum().astype(float).reset_index()
+        df_balanced_central_defendertotal['MINUTESONFIELD total'] = minutter['MINUTESONFIELD']
         with st.expander('Game by game'):
             df_balanced_central_defender = df_balanced_central_defender.sort_values('Total score',ascending = False)
             st.dataframe(df_balanced_central_defender,hide_index=True)
