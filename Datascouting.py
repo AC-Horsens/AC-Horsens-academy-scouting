@@ -14,7 +14,7 @@ def load_data ():
     df_matchstats = pd.read_csv(f'{league}_matchstats.csv')
     df_xg = pd.read_csv(f'{league}_xg.csv')
     df_groundduels = pd.read_csv(f'{league}_groundduels.csv')
-    return df_matchstats,df_groundduels,df_xg
+    return events, df_matchstats,df_groundduels,df_xg
 
 def Process_data(events,df_xg,df_matchstats,df_groundduels):
     xg = events[['SHORTNAME','MATCHLABEL','SHOTXG']]
