@@ -97,6 +97,7 @@ def Process_data(events,df_xg,df_matchstats,df_groundduels):
             st.dataframe(df_balanced_central_defender,hide_index=True)
         
         with st.expander('Total'):       
+            df_balanced_central_defendertotal = df_balanced_central_defendertotal[['SHORTNAME','TEAMNAME','MINUTESONFIELD total','Defending_','Possession_value_added','Passing_','Total score']]
             aggregation_functions = { 
                 'MINUTESONFIELD total': 'sum'  # Sum for minutesonfield
             }
