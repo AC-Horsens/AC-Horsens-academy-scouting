@@ -439,4 +439,4 @@ def Process_data(events,df_xg,df_matchstats,df_groundduels):
 
 df_matchstats,df_groundduels,df_xg = load_data()
 
-Process_data(df_matchstats,df_groundduels,df_xg)
+Process_data(events,df_xg,df_matchstats,df_groundduels)
