@@ -38,6 +38,7 @@ D. Gade,Silkeborg U17,"Randers U17 - Silkeborg U17, 3 - 1",6,4,0,66.67,0.0
 D. Gade,Silkeborg U17,"Silkeborg U17 - Brøndby U17, 1 - 4",6,3,2,50.0,33.33
 D. Manata,OB U17,"OB U17 - Sønderjyske U17, 4 - 1",4,4,0,100.0,0.0
 D. Popalzai,AaB U17,"Nordsjælland U17 - AaB U17, 2 - 1",8,6,4,75.0,50.0
+D. Sanits,København U17,"København U17 - Horsens U17, 3 - 0",8,3,2,37.5,25.0
 D. Stojanovic,Silkeborg U17,"Randers U17 - Silkeborg U17, 3 - 1",3,2,0,66.67,0.0
 D. Stojanovic,Silkeborg U17,"Silkeborg U17 - Brøndby U17, 1 - 4",5,3,1,60.0,20.0
 E. Bachmann,Randers U17,"Randers U17 - Silkeborg U17, 3 - 1",3,2,0,66.67,0.0
@@ -46,6 +47,7 @@ E. Broberg,Brøndby U17,"Silkeborg U17 - Brøndby U17, 1 - 4",6,3,1,50.0,16.67
 E. Cehobasic,Esbjerg U17,"AGF U17 - Esbjerg U17, 4 - 3",6,5,2,83.33,33.33
 E. Cehobasic,Esbjerg U17,"Esbjerg U17 - Midtjylland U17, 0 - 4",4,2,0,50.0,0.0
 E. Christiansen,AaB U17,"Nordsjælland U17 - AaB U17, 2 - 1",7,3,0,42.86,0.0
+E. Frederiksen,Horsens U17,"København U17 - Horsens U17, 3 - 0",1,0,0,0.0,0.0
 E. Gylling,Silkeborg U17,"Randers U17 - Silkeborg U17, 3 - 1",12,8,5,66.67,41.67
 E. Gylling,Silkeborg U17,"Silkeborg U17 - Brøndby U17, 1 - 4",9,8,5,88.89,55.56
 E. Hansen,AGF U17,"AGF U17 - Esbjerg U17, 4 - 3",5,3,1,60.0,20.0
@@ -57,8 +59,10 @@ E. Larsen,Brøndby U17,"Brøndby U17 - Lyngby U17, 2 - 1",6,3,2,50.0,33.33
 E. Larsen,Brøndby U17,"Silkeborg U17 - Brøndby U17, 1 - 4",5,5,1,100.0,20.0
 E. Rasmussen,OB U17,"OB U17 - Sønderjyske U17, 4 - 1",9,7,6,77.78,66.67
 E. Sahl Møller Jensen,SønderjyskE U17,"OB U17 - Sønderjyske U17, 4 - 1",3,3,1,100.0,33.33
+E. Villumsen,København U17,"København U17 - Horsens U17, 3 - 0",8,8,3,100.0,37.5
 F. Bang Andersen,Randers U17,"Randers U17 - Silkeborg U17, 3 - 1",1,0,0,0.0,0.0
 F. Carstensen,Horsens U17,"AGF U17 - Horsens U17, 2 - 0",4,2,0,50.0,0.0
+F. Göthler,København U17,"København U17 - Horsens U17, 3 - 0",2,2,1,100.0,50.0
 F. Ibsen,Silkeborg U17,"Randers U17 - Silkeborg U17, 3 - 1",3,0,0,0.0,0.0
 F. Ibsen,Silkeborg U17,"Silkeborg U17 - Brøndby U17, 1 - 4",4,4,1,100.0,25.0
 F. Nykjær,Midtjylland U17,"Esbjerg U17 - Midtjylland U17, 0 - 4",7,5,2,71.43,28.57
@@ -78,6 +82,7 @@ H. Khalil,SønderjyskE U17,"OB U17 - Sønderjyske U17, 4 - 1",9,4,2,44.44,22.22
 H. Leal Soares,Randers U17,"Randers U17 - Silkeborg U17, 3 - 1",3,3,0,100.0,0.0
 H. Villads,Lyngby U17,"Brøndby U17 - Lyngby U17, 2 - 1",9,4,3,44.44,33.33
 I. Fejerskov,Horsens U17,"AGF U17 - Horsens U17, 2 - 0",1,0,0,0.0,0.0
+I. Holalam,København U17,"København U17 - Horsens U17, 3 - 0",7,2,0,28.57,0.0
 I. Houira,AGF U17,"AGF U17 - Esbjerg U17, 4 - 3",2,2,1,100.0,50.0
 I. Houira,AGF U17,"AGF U17 - Horsens U17, 2 - 0",5,3,0,60.0,0.0
 I. Vogt,Brøndby U17,"Brøndby U17 - Lyngby U17, 2 - 1",1,1,0,100.0,0.0
@@ -89,6 +94,7 @@ J. Alphinas,Midtjylland U17,"Esbjerg U17 - Midtjylland U17, 0 - 4",1,1,1,100.0,1
 J. Ask,Horsens U17,"AGF U17 - Horsens U17, 2 - 0",11,6,4,54.55,36.36
 J. Ask,Horsens U17,"København U17 - Horsens U17, 3 - 0",9,7,4,77.78,44.44
 J. Denker Gudemoos,SønderjyskE U17,"OB U17 - Sønderjyske U17, 4 - 1",1,0,0,0.0,0.0
+J. El Rrami,København U17,"København U17 - Horsens U17, 3 - 0",2,1,1,50.0,50.0
 J. Friis,AGF U17,"AGF U17 - Esbjerg U17, 4 - 3",3,3,0,100.0,0.0
 J. Friis,AGF U17,"AGF U17 - Horsens U17, 2 - 0",12,4,2,33.33,16.67
 J. Gretlund,Brøndby U17,"Brøndby U17 - Lyngby U17, 2 - 1",13,7,3,53.85,23.08
@@ -121,11 +127,14 @@ K. Knudsen,Horsens U17,"København U17 - Horsens U17, 3 - 0",8,6,2,75.0,25.0
 K. Kostadinov,OB U17,"OB U17 - Sønderjyske U17, 4 - 1",2,1,0,50.0,0.0
 K. Kotsis,OB U17,"OB U17 - Sønderjyske U17, 4 - 1",8,6,2,75.0,25.0
 K. Nielsen,Midtjylland U17,"Esbjerg U17 - Midtjylland U17, 0 - 4",1,0,1,0.0,100.0
+K. Teiz Milo,København U17,"København U17 - Horsens U17, 3 - 0",3,2,2,66.67,66.67
 L. Birk,SønderjyskE U17,"OB U17 - Sønderjyske U17, 4 - 1",1,0,0,0.0,0.0
 L. Borg,Silkeborg U17,"Randers U17 - Silkeborg U17, 3 - 1",6,4,1,66.67,16.67
 L. Borg,Silkeborg U17,"Silkeborg U17 - Brøndby U17, 1 - 4",3,2,0,66.67,0.0
 L. Callaku,Nordsjælland U17,"Nordsjælland U17 - AaB U17, 2 - 1",4,2,0,50.0,0.0
+L. Coronado,København U17,"København U17 - Horsens U17, 3 - 0",1,1,1,100.0,100.0
 L. Gernaey,Nordsjælland U17,"Nordsjælland U17 - AaB U17, 2 - 1",1,0,0,0.0,0.0
+L. Heriba,København U17,"København U17 - Horsens U17, 3 - 0",2,0,0,0.0,0.0
 L. Juel Jørgensen,Esbjerg U17,"Esbjerg U17 - Midtjylland U17, 0 - 4",5,3,2,60.0,40.0
 L. Jørgensen,AGF U17,"AGF U17 - Esbjerg U17, 4 - 3",7,5,1,71.43,14.29
 L. Jørgensen,AGF U17,"AGF U17 - Horsens U17, 2 - 0",14,8,3,57.14,21.43
@@ -148,6 +157,7 @@ M. Granberg,Brøndby U17,"Silkeborg U17 - Brøndby U17, 1 - 4",9,7,3,77.78,33.33
 M. Hegner,Esbjerg U17,"AGF U17 - Esbjerg U17, 4 - 3",4,0,0,0.0,0.0
 M. Hegner,Esbjerg U17,"Esbjerg U17 - Midtjylland U17, 0 - 4",7,2,0,28.57,0.0
 M. Hyldgaard,AaB U17,"Nordsjælland U17 - AaB U17, 2 - 1",5,4,2,80.0,40.0
+M. Jørgensen,København U17,"København U17 - Horsens U17, 3 - 0",5,2,1,40.0,20.0
 M. Knudsen Kandic,Horsens U17,"AGF U17 - Horsens U17, 2 - 0",1,1,0,100.0,0.0
 M. Larsen,Horsens U17,"AGF U17 - Horsens U17, 2 - 0",8,5,2,62.5,25.0
 M. Larsen,Horsens U17,"København U17 - Horsens U17, 3 - 0",5,3,1,60.0,20.0
@@ -172,6 +182,7 @@ N. Kjer,Midtjylland U17,"Esbjerg U17 - Midtjylland U17, 0 - 4",3,3,3,100.0,100.0
 N. Krucov Knudsen,Lyngby U17,"Brøndby U17 - Lyngby U17, 2 - 1",15,12,7,80.0,46.67
 N. Kruse Hansen,Esbjerg U17,"AGF U17 - Esbjerg U17, 4 - 3",1,0,0,0.0,0.0
 N. Kræmmergaard,AaB U17,"Nordsjælland U17 - AaB U17, 2 - 1",5,4,2,80.0,40.0
+N. Madsen,København U17,"København U17 - Horsens U17, 3 - 0",7,4,1,57.14,14.29
 N. Manata,OB U17,"OB U17 - Sønderjyske U17, 4 - 1",10,4,0,40.0,0.0
 N. Reiche,AaB U17,"Nordsjælland U17 - AaB U17, 2 - 1",7,6,0,85.71,0.0
 N. Wheelman,Lyngby U17,"Brøndby U17 - Lyngby U17, 2 - 1",6,3,1,50.0,16.67
@@ -206,9 +217,11 @@ S. Bodilsen,Silkeborg U17,"Randers U17 - Silkeborg U17, 3 - 1",1,0,0,0.0,0.0
 S. Bodilsen,Silkeborg U17,"Silkeborg U17 - Brøndby U17, 1 - 4",3,1,1,33.33,33.33
 S. Cappeletti,Lyngby U17,"Brøndby U17 - Lyngby U17, 2 - 1",2,1,1,50.0,50.0
 S. Chahboun,Lyngby U17,"Brøndby U17 - Lyngby U17, 2 - 1",1,1,1,100.0,100.0
+S. Engelhardt,København U17,"København U17 - Horsens U17, 3 - 0",7,5,4,71.43,57.14
 S. Hassan,AaB U17,"Nordsjælland U17 - AaB U17, 2 - 1",7,3,0,42.86,0.0
 S. Jensen,Randers U17,"Randers U17 - Silkeborg U17, 3 - 1",5,2,1,40.0,20.0
 S. Morando,SønderjyskE U17,"OB U17 - Sønderjyske U17, 4 - 1",13,7,3,53.85,23.08
+S. Pelyad,København U17,"København U17 - Horsens U17, 3 - 0",9,7,2,77.78,22.22
 S. Risager,SønderjyskE U17,"OB U17 - Sønderjyske U17, 4 - 1",7,5,1,71.43,14.29
 S. Rohan,OB U17,"OB U17 - Sønderjyske U17, 4 - 1",11,9,3,81.82,27.27
 S. Thaysen Nissen,SønderjyskE U17,"OB U17 - Sønderjyske U17, 4 - 1",6,5,3,83.33,50.0
@@ -217,6 +230,7 @@ T. Danquah Freiesleben,Brøndby U17,"Silkeborg U17 - Brøndby U17, 1 - 4",1,0,0,
 T. Ekstrand,Brøndby U17,"Brøndby U17 - Lyngby U17, 2 - 1",5,3,1,60.0,20.0
 T. Ekstrand,Brøndby U17,"Silkeborg U17 - Brøndby U17, 1 - 4",3,3,2,100.0,66.67
 T. Kolici,Horsens U17,"AGF U17 - Horsens U17, 2 - 0",5,3,0,60.0,0.0
+T. Reeh,København U17,"København U17 - Horsens U17, 3 - 0",8,2,1,25.0,12.5
 T. Thomsen,AGF U17,"AGF U17 - Esbjerg U17, 4 - 3",3,1,0,33.33,0.0
 T. Thomsen,AGF U17,"AGF U17 - Horsens U17, 2 - 0",7,5,2,71.43,28.57
 V. Bastrup,Midtjylland U17,"Esbjerg U17 - Midtjylland U17, 0 - 4",5,1,2,20.0,40.0
@@ -224,6 +238,7 @@ V. Bertelsen,AaB U17,"Nordsjælland U17 - AaB U17, 2 - 1",1,0,0,0.0,0.0
 V. Bruus Vad,AGF U17,"AGF U17 - Esbjerg U17, 4 - 3",10,7,2,70.0,20.0
 V. Grønhøj Nissen,SønderjyskE U17,"OB U17 - Sønderjyske U17, 4 - 1",4,2,0,50.0,0.0
 V. Jesseen,Lyngby U17,"Brøndby U17 - Lyngby U17, 2 - 1",3,0,0,0.0,0.0
+V. Moritzen,København U17,"København U17 - Horsens U17, 3 - 0",3,1,0,33.33,0.0
 W. Laugesen,AGF U17,"AGF U17 - Esbjerg U17, 4 - 3",2,0,0,0.0,0.0
 W. Laugesen,AGF U17,"AGF U17 - Horsens U17, 2 - 0",7,5,2,71.43,28.57
 W. Maarouf,AGF U17,"AGF U17 - Esbjerg U17, 4 - 3",4,2,1,50.0,25.0
@@ -231,6 +246,7 @@ W. Maarouf,AGF U17,"AGF U17 - Horsens U17, 2 - 0",12,7,2,58.33,16.67
 W. Sondbery,AGF U17,"AGF U17 - Horsens U17, 2 - 0",6,4,2,66.67,33.33
 W. Tuxen,Brøndby U17,"Brøndby U17 - Lyngby U17, 2 - 1",8,5,2,62.5,25.0
 W. Tuxen,Brøndby U17,"Silkeborg U17 - Brøndby U17, 1 - 4",3,3,3,100.0,100.0
+X. Poulsen,København U17,"København U17 - Horsens U17, 3 - 0",2,1,0,50.0,0.0
 Y. Abbas,Horsens U17,"AGF U17 - Horsens U17, 2 - 0",6,5,3,83.33,50.0
 Y. Abbas,Horsens U17,"København U17 - Horsens U17, 3 - 0",2,1,0,50.0,0.0
 Y. Taffal,Randers U17,"Randers U17 - Silkeborg U17, 3 - 1",4,3,0,75.0,0.0

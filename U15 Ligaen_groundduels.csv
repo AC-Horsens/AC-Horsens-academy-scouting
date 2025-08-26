@@ -1,12 +1,14 @@
 SHORTNAME,TEAMNAME,MATCHLABEL,total_duels,stoppedprogress_count,recoveredpossession_count,stoppedprogress_percent,recoveredpossession_percent
 A. Bredgaard,OB U15,"OB U15 - Sønderjyske U15, 4 - 1",7,5,4,71.43,57.14
 A. Christesen,AaB U15,"Farum Boldklub U15 - AaB U15, 1 - 3",6,5,2,83.33,33.33
-A. Dirksen,Sønderjyske U15,"OB U15 - Sønderjyske U15, 4 - 1",3,1,0,33.33,0.0
-A. Dirksen,Sønderjyske U15,"Sønderjyske U15 - Vejle U15, 2 - 1",10,8,1,80.0,10.0
+A. Dirksen,SønderjyskE U15,"OB U15 - Sønderjyske U15, 4 - 1",3,1,0,33.33,0.0
+A. Dirksen,SønderjyskE U15,"Sønderjyske U15 - Vejle U15, 2 - 1",10,8,1,80.0,10.0
 A. Gottschalck Krogsgård,OB U15,"OB U15 - Sønderjyske U15, 4 - 1",9,7,6,77.78,66.67
 A. Hangaard Jul,Silkeborg IF U15,"Randers U15 - Silkeborg IF U15, 4 - 2",1,1,0,100.0,0.0
 A. Holck Vibe,AGF U15,"AGF U15 - Horsens U15, 1 - 4",3,3,2,100.0,66.67
+A. Kondrup Kristensen,Randers U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",1,0,0,0.0,0.0
 A. Kristjansen,Horsens U15,"AGF U15 - Horsens U15, 1 - 4",2,1,1,50.0,50.0
+A. Krogh,Lyngby U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",3,1,0,33.33,0.0
 A. Larsen,Midtjylland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",5,4,0,80.0,0.0
 A. Mfuta,Silkeborg IF U15,"Randers U15 - Silkeborg IF U15, 4 - 2",2,1,0,50.0,0.0
 A. Mfuta,Silkeborg IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",7,5,3,71.43,42.86
@@ -16,14 +18,14 @@ A. Nørkjær Werner,FC Nordsjælland U15,"Farum Boldklub U15 - AaB U15, 1 - 3",2
 A. Nørkjær Werner,FC Nordsjælland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",1,1,1,100.0,100.0
 A. Rudolf,Vejle U15,"Sønderjyske U15 - Vejle U15, 2 - 1",5,2,0,40.0,0.0
 A. Rudolf,Vejle U15,"Vejle U15 - København U15, 1 - 6",1,1,0,100.0,0.0
-A. Schrader Pedersen,Sønderjyske U15,"OB U15 - Sønderjyske U15, 4 - 1",6,4,2,66.67,33.33
-A. Schrader Pedersen,Sønderjyske U15,"Sønderjyske U15 - Vejle U15, 2 - 1",7,2,0,28.57,0.0
-A. Stigaard,Randers U15,"Randers U15 - Lyngby U15, 1 - 1",10,6,0,60.0,0.0
+A. Schrader Pedersen,SønderjyskE U15,"OB U15 - Sønderjyske U15, 4 - 1",6,4,2,66.67,33.33
+A. Schrader Pedersen,SønderjyskE U15,"Sønderjyske U15 - Vejle U15, 2 - 1",7,2,0,28.57,0.0
+A. Stigaard,Randers U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",10,6,0,60.0,0.0
 A. Stigaard,Randers U15,"Randers U15 - Silkeborg IF U15, 4 - 2",4,1,1,25.0,25.0
 A. Tejlgaard,Horsens U15,"AGF U15 - Horsens U15, 1 - 4",7,2,2,28.57,28.57
 A. Tidemann,OB U15,"OB U15 - Sønderjyske U15, 4 - 1",2,2,1,100.0,50.0
 A. Ziegler,AGF U15,"AGF U15 - Horsens U15, 1 - 4",8,4,1,50.0,12.5
-B. Al-khodor,Sønderjyske U15,"Sønderjyske U15 - Vejle U15, 2 - 1",6,3,2,50.0,33.33
+B. Al-khodor,SønderjyskE U15,"Sønderjyske U15 - Vejle U15, 2 - 1",6,3,2,50.0,33.33
 B. Ivan Pabst,Horsens U15,"AGF U15 - Horsens U15, 1 - 4",5,2,0,40.0,0.0
 B. Lodberg,Horsens U15,"AGF U15 - Horsens U15, 1 - 4",6,3,0,50.0,0.0
 B. Mucondo,Brøndby IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",5,4,0,80.0,0.0
@@ -36,24 +38,28 @@ E. Avci,Vejle U15,"Sønderjyske U15 - Vejle U15, 2 - 1",5,2,2,40.0,40.0
 E. Avci,Vejle U15,"Vejle U15 - København U15, 1 - 6",9,7,1,77.78,11.11
 E. Bech,Brøndby IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",9,7,2,77.78,22.22
 E. Hassan,København U15,"Vejle U15 - København U15, 1 - 6",1,1,0,100.0,0.0
-E. Jacobs,Sønderjyske U15,"OB U15 - Sønderjyske U15, 4 - 1",3,2,0,66.67,0.0
+E. Jacobs,SønderjyskE U15,"OB U15 - Sønderjyske U15, 4 - 1",3,2,0,66.67,0.0
 E. Langhoff,Midtjylland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",7,2,1,28.57,14.29
 E. Larsen,AGF U15,"AGF U15 - Horsens U15, 1 - 4",6,3,2,50.0,33.33
 E. Lund Jensen,OB U15,"OB U15 - Sønderjyske U15, 4 - 1",9,5,1,55.56,11.11
 E. Ravn,Horsens U15,"AGF U15 - Horsens U15, 1 - 4",2,2,0,100.0,0.0
 E. Revsbæk,Midtjylland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",4,3,1,75.0,25.0
+E. Salih,Lyngby U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",3,2,1,66.67,33.33
 E. Van Dijk,Silkeborg IF U15,"Randers U15 - Silkeborg IF U15, 4 - 2",2,1,0,50.0,0.0
 F. Abrahamsen,OB U15,"OB U15 - Sønderjyske U15, 4 - 1",3,2,1,66.67,33.33
 F. Blom Hvid Kristiansen,Randers U15,"Randers U15 - Silkeborg IF U15, 4 - 2",2,1,1,50.0,50.0
 F. Døssing,Silkeborg IF U15,"Randers U15 - Silkeborg IF U15, 4 - 2",4,3,1,75.0,25.0
 F. Døssing,Silkeborg IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",5,2,2,40.0,40.0
 F. Falster,København U15,"Vejle U15 - København U15, 1 - 6",3,2,1,66.67,33.33
+F. Herzog,Lyngby U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",6,4,2,66.67,33.33
 F. Mørkeberg,Brøndby IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",2,2,0,100.0,0.0
 F. Thing,Midtjylland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",6,3,1,50.0,16.67
 G. Duus,AGF U15,"AGF U15 - Horsens U15, 1 - 4",2,0,0,0.0,0.0
+G. Pedersen,Randers U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",8,5,0,62.5,0.0
 G. Pedersen,Randers U15,"Randers U15 - Silkeborg IF U15, 4 - 2",7,2,1,28.57,14.29
 G. Winkler Iversen,OB U15,"OB U15 - Sønderjyske U15, 4 - 1",3,2,1,66.67,33.33
 H. Andersen,Midtjylland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",5,2,1,40.0,20.0
+H. Holmstrom,Lyngby U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",6,4,0,66.67,0.0
 H. Høi,København U15,"Vejle U15 - København U15, 1 - 6",1,0,0,0.0,0.0
 I. Ahmed Andersen,Silkeborg IF U15,"Randers U15 - Silkeborg IF U15, 4 - 2",6,1,0,16.67,0.0
 I. Ahmed Andersen,Silkeborg IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",11,7,1,63.64,9.09
@@ -63,19 +69,19 @@ J. Fahrenkrug,FC Nordsjælland U15,"Farum Boldklub U15 - AaB U15, 1 - 3",4,2,2,5
 J. Fahrenkrug,FC Nordsjælland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",20,16,10,80.0,50.0
 J. Jensen,København U15,"Vejle U15 - København U15, 1 - 6",4,1,0,25.0,0.0
 J. Jensen,OB U15,"OB U15 - Sønderjyske U15, 4 - 1",16,10,4,62.5,25.0
-J. Nielsen,Sønderjyske U15,"OB U15 - Sønderjyske U15, 4 - 1",7,4,1,57.14,14.29
-J. Njuguna,Randers U15,"Randers U15 - Lyngby U15, 1 - 1",5,1,0,20.0,0.0
+J. Nielsen,SønderjyskE U15,"OB U15 - Sønderjyske U15, 4 - 1",7,4,1,57.14,14.29
+J. Njuguna,Randers U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",5,1,0,20.0,0.0
 J. Njuguna,Randers U15,"Randers U15 - Silkeborg IF U15, 4 - 2",4,3,2,75.0,50.0
 J. Pedersen,AaB U15,"Farum Boldklub U15 - AaB U15, 1 - 3",3,3,0,100.0,0.0
-J. Schmidt,Sønderjyske U15,"OB U15 - Sønderjyske U15, 4 - 1",9,9,3,100.0,33.33
-J. Schmidt,Sønderjyske U15,"Sønderjyske U15 - Vejle U15, 2 - 1",11,7,3,63.64,27.27
+J. Schmidt,SønderjyskE U15,"OB U15 - Sønderjyske U15, 4 - 1",9,9,3,100.0,33.33
+J. Schmidt,SønderjyskE U15,"Sønderjyske U15 - Vejle U15, 2 - 1",11,7,3,63.64,27.27
 J. Veggerby Eldridge,FC Nordsjælland U15,"Farum Boldklub U15 - AaB U15, 1 - 3",5,4,3,80.0,60.0
-J. Wieland Pedersen,Randers U15,"Randers U15 - Lyngby U15, 1 - 1",2,1,0,50.0,0.0
+J. Wieland Pedersen,Randers U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",2,1,0,50.0,0.0
 J. Wieland Pedersen,Randers U15,"Randers U15 - Silkeborg IF U15, 4 - 2",2,0,0,0.0,0.0
-K. Hansen,Sønderjyske U15,"Sønderjyske U15 - Vejle U15, 2 - 1",8,5,3,62.5,37.5
+K. Hansen,SønderjyskE U15,"Sønderjyske U15 - Vejle U15, 2 - 1",8,5,3,62.5,37.5
 K. Skjærup Olsen,Vejle U15,"Sønderjyske U15 - Vejle U15, 2 - 1",4,1,1,25.0,25.0
 K. Skjærup Olsen,Vejle U15,"Vejle U15 - København U15, 1 - 6",3,1,0,33.33,0.0
-L. Birk,Sønderjyske U15,"OB U15 - Sønderjyske U15, 4 - 1",8,7,5,87.5,62.5
+L. Birk,SønderjyskE U15,"OB U15 - Sønderjyske U15, 4 - 1",8,7,5,87.5,62.5
 L. Fabricius Townhill Madsen,Randers U15,"Randers U15 - Silkeborg IF U15, 4 - 2",5,3,2,60.0,40.0
 L. Fisher,Brøndby IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",7,3,1,42.86,14.29
 L. Jønsson,AaB U15,"Farum Boldklub U15 - AaB U15, 1 - 3",7,7,4,100.0,57.14
@@ -84,31 +90,33 @@ L. Ryolf,Silkeborg IF U15,"Randers U15 - Silkeborg IF U15, 4 - 2",10,7,2,70.0,20
 L. Ryolf,Silkeborg IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",3,2,0,66.67,0.0
 L. Soares,Midtjylland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",14,10,4,71.43,28.57
 L. Thomsen,Midtjylland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",3,2,1,66.67,33.33
-L. Tjørnelund,Sønderjyske U15,"Sønderjyske U15 - Vejle U15, 2 - 1",3,2,0,66.67,0.0
+L. Tjørnelund,SønderjyskE U15,"Sønderjyske U15 - Vejle U15, 2 - 1",3,2,0,66.67,0.0
 L. Vendelbo,Silkeborg IF U15,"Randers U15 - Silkeborg IF U15, 4 - 2",3,2,0,66.67,0.0
 L. Vendelbo,Silkeborg IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",7,5,4,71.43,57.14
+L. Weindahl,Lyngby U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",3,0,0,0.0,0.0
 L. Øllegaard,Vejle U15,"Sønderjyske U15 - Vejle U15, 2 - 1",1,0,0,0.0,0.0
 M. Christensen,Brøndby IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",11,9,5,81.82,45.45
 M. Elkjær Pedersen,Vejle U15,"Sønderjyske U15 - Vejle U15, 2 - 1",7,5,2,71.43,28.57
 M. Elkjær Pedersen,Vejle U15,"Vejle U15 - København U15, 1 - 6",6,5,2,83.33,33.33
-M. Holt,Sønderjyske U15,"OB U15 - Sønderjyske U15, 4 - 1",5,3,1,60.0,20.0
-M. Holt,Sønderjyske U15,"Sønderjyske U15 - Vejle U15, 2 - 1",7,2,0,28.57,0.0
+M. Holt,SønderjyskE U15,"OB U15 - Sønderjyske U15, 4 - 1",5,3,1,60.0,20.0
+M. Holt,SønderjyskE U15,"Sønderjyske U15 - Vejle U15, 2 - 1",7,2,0,28.57,0.0
 M. Horn,København U15,"Vejle U15 - København U15, 1 - 6",1,1,1,100.0,100.0
 M. Ismet Schumacher,FC Nordsjælland U15,"Farum Boldklub U15 - AaB U15, 1 - 3",7,6,4,85.71,57.14
 M. Ismet Schumacher,FC Nordsjælland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",7,3,0,42.86,0.0
-M. Jessen,Sønderjyske U15,"OB U15 - Sønderjyske U15, 4 - 1",1,1,1,100.0,100.0
+M. Jessen,SønderjyskE U15,"OB U15 - Sønderjyske U15, 4 - 1",1,1,1,100.0,100.0
 M. Jørgensen,København U15,"Vejle U15 - København U15, 1 - 6",6,3,1,50.0,16.67
 M. Kaltoft Garzon,OB U15,"OB U15 - Sønderjyske U15, 4 - 1",7,5,1,71.43,14.29
 M. Kejser,Midtjylland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",2,1,0,50.0,0.0
 M. Kirkegaard,Midtjylland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",9,6,0,66.67,0.0
+M. Kjær Christensen,Randers U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",5,3,1,60.0,20.0
 M. Knudsen,OB U15,"OB U15 - Sønderjyske U15, 4 - 1",2,1,0,50.0,0.0
 M. Mortensen,AaB U15,"Farum Boldklub U15 - AaB U15, 1 - 3",4,2,1,50.0,25.0
 M. Musenene Christensen,Horsens U15,"AGF U15 - Horsens U15, 1 - 4",3,1,0,33.33,0.0
 M. Naur,Silkeborg IF U15,"Randers U15 - Silkeborg IF U15, 4 - 2",7,5,3,71.43,42.86
 M. Naur,Silkeborg IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",5,4,2,80.0,40.0
-M. Pedersen,Sønderjyske U15,"OB U15 - Sønderjyske U15, 4 - 1",9,5,1,55.56,11.11
-M. Pedersen,Sønderjyske U15,"Sønderjyske U15 - Vejle U15, 2 - 1",9,5,1,55.56,11.11
-M. Rosendahl Rahbæk Møller,Randers U15,"Randers U15 - Lyngby U15, 1 - 1",6,3,0,50.0,0.0
+M. Pedersen,SønderjyskE U15,"OB U15 - Sønderjyske U15, 4 - 1",9,5,1,55.56,11.11
+M. Pedersen,SønderjyskE U15,"Sønderjyske U15 - Vejle U15, 2 - 1",9,5,1,55.56,11.11
+M. Rosendahl Rahbæk Møller,Randers U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",6,3,0,50.0,0.0
 M. Rosendahl Rahbæk Møller,Randers U15,"Randers U15 - Silkeborg IF U15, 4 - 2",6,5,2,83.33,33.33
 M. Sander Casamorin,København U15,"Vejle U15 - København U15, 1 - 6",1,0,0,0.0,0.0
 M. Starheim Andersen,Silkeborg IF U15,"Randers U15 - Silkeborg IF U15, 4 - 2",9,3,1,33.33,11.11
@@ -117,8 +125,8 @@ M. Sütyemez,Vejle U15,"Sønderjyske U15 - Vejle U15, 2 - 1",3,2,2,66.67,66.67
 M. Sütyemez,Vejle U15,"Vejle U15 - København U15, 1 - 6",3,2,0,66.67,0.0
 M. Tejlgaard,Horsens U15,"AGF U15 - Horsens U15, 1 - 4",4,3,2,75.0,50.0
 M. Thyssen,AaB U15,"Farum Boldklub U15 - AaB U15, 1 - 3",5,2,1,40.0,20.0
-M. Topcu,Sønderjyske U15,"OB U15 - Sønderjyske U15, 4 - 1",10,8,2,80.0,20.0
-M. Topcu,Sønderjyske U15,"Sønderjyske U15 - Vejle U15, 2 - 1",2,1,1,50.0,50.0
+M. Topcu,SønderjyskE U15,"OB U15 - Sønderjyske U15, 4 - 1",10,8,2,80.0,20.0
+M. Topcu,SønderjyskE U15,"Sønderjyske U15 - Vejle U15, 2 - 1",2,1,1,50.0,50.0
 M. Warberg Sejersen,AGF U15,"AGF U15 - Horsens U15, 1 - 4",4,3,0,75.0,0.0
 M. shot,Vejle U15,"Sønderjyske U15 - Vejle U15, 2 - 1",6,2,2,33.33,33.33
 M. shot,Vejle U15,"Vejle U15 - København U15, 1 - 6",3,2,0,66.67,0.0
@@ -134,7 +142,7 @@ N. Osei,FC Nordsjælland U15,"Farum Boldklub U15 - AaB U15, 1 - 3",3,2,2,66.67,6
 N. Osei,FC Nordsjælland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",10,8,5,80.0,50.0
 N. Riis,Vejle U15,"Sønderjyske U15 - Vejle U15, 2 - 1",1,0,0,0.0,0.0
 N. Riis,Vejle U15,"Vejle U15 - København U15, 1 - 6",4,3,1,75.0,25.0
-N. Simonsen,Randers U15,"Randers U15 - Lyngby U15, 1 - 1",3,2,1,66.67,33.33
+N. Simonsen,Randers U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",3,2,1,66.67,33.33
 N. Simonsen,Randers U15,"Randers U15 - Silkeborg IF U15, 4 - 2",5,3,1,60.0,20.0
 N. Stenholt Haarup,Silkeborg IF U15,"Randers U15 - Silkeborg IF U15, 4 - 2",9,6,4,66.67,44.44
 N. Stenholt Haarup,Silkeborg IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",15,9,4,60.0,26.67
@@ -143,15 +151,17 @@ N. Takiar,FC Nordsjælland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",2,2
 N. Vemmelund,Vejle U15,"Sønderjyske U15 - Vejle U15, 2 - 1",6,3,0,50.0,0.0
 N. Vemmelund,Vejle U15,"Vejle U15 - København U15, 1 - 6",2,2,0,100.0,0.0
 N. Vestergaard,Midtjylland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",4,3,1,75.0,25.0
-O. Bregendahl Andersen,Randers U15,"Randers U15 - Lyngby U15, 1 - 1",1,0,0,0.0,0.0
+N. Wilson,Lyngby U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",1,1,0,100.0,0.0
+O. Bregendahl Andersen,Randers U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",1,0,0,0.0,0.0
 O. Bregendahl Andersen,Randers U15,"Randers U15 - Silkeborg IF U15, 4 - 2",11,5,1,45.45,9.09
-O. Bunton Olesen,Randers U15,"Randers U15 - Lyngby U15, 1 - 1",7,4,3,57.14,42.86
+O. Bunton Olesen,Randers U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",7,4,3,57.14,42.86
 O. Bunton Olesen,Randers U15,"Randers U15 - Silkeborg IF U15, 4 - 2",8,5,2,62.5,25.0
 O. Fruensgaard,Silkeborg IF U15,"Randers U15 - Silkeborg IF U15, 4 - 2",8,6,4,75.0,50.0
 O. Fruensgaard,Silkeborg IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",9,6,2,66.67,22.22
 O. Lykkebo,Brøndby IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",8,4,0,50.0,0.0
 O. Lynggaard,Vejle U15,"Sønderjyske U15 - Vejle U15, 2 - 1",6,3,1,50.0,16.67
 O. Lynggaard,Vejle U15,"Vejle U15 - København U15, 1 - 6",7,3,1,42.86,14.29
+O. Ostergaard,Lyngby U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",8,4,1,50.0,12.5
 O. Rahr Zachariassen,FC Nordsjælland U15,"Farum Boldklub U15 - AaB U15, 1 - 3",1,0,0,0.0,0.0
 O. Rahr Zachariassen,FC Nordsjælland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",10,8,3,80.0,30.0
 O. Sandholt,FC Nordsjælland U15,"Farum Boldklub U15 - AaB U15, 1 - 3",2,0,0,0.0,0.0
@@ -159,21 +169,23 @@ O. Smakic,Midtjylland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",1,1,0,10
 O. Svanholm,AGF U15,"AGF U15 - Horsens U15, 1 - 4",2,2,1,100.0,50.0
 O. Sørensen,FC Nordsjælland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",4,4,1,100.0,25.0
 Q. Alsalhani,OB U15,"OB U15 - Sønderjyske U15, 4 - 1",4,1,1,25.0,25.0
+R. Agerskov Brostrøm,Lyngby U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",2,1,0,50.0,0.0
 R. Rasmussen,Midtjylland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",3,2,0,66.67,0.0
 S. Bjerg Makolli,FC Nordsjælland U15,"Farum Boldklub U15 - AaB U15, 1 - 3",2,1,0,50.0,0.0
 S. Bjerg Makolli,FC Nordsjælland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",1,0,0,0.0,0.0
 S. Brown,København U15,"Vejle U15 - København U15, 1 - 6",5,3,1,60.0,20.0
 S. Dalsgaard,Horsens U15,"AGF U15 - Horsens U15, 1 - 4",13,10,2,76.92,15.38
-S. Gormsen,Sønderjyske U15,"OB U15 - Sønderjyske U15, 4 - 1",7,4,1,57.14,14.29
-S. Gormsen,Sønderjyske U15,"Sønderjyske U15 - Vejle U15, 2 - 1",10,3,1,30.0,10.0
+S. Diekhöner Harbeck,Lyngby U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",4,2,2,50.0,50.0
+S. Gormsen,SønderjyskE U15,"OB U15 - Sønderjyske U15, 4 - 1",7,4,1,57.14,14.29
+S. Gormsen,SønderjyskE U15,"Sønderjyske U15 - Vejle U15, 2 - 1",10,3,1,30.0,10.0
 S. Holmgaard,Brøndby IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",12,7,2,58.33,16.67
-S. Horup bekhøj,Randers U15,"Randers U15 - Lyngby U15, 1 - 1",5,3,2,60.0,40.0
+S. Horup bekhøj,Randers U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",5,3,2,60.0,40.0
 S. Horup bekhøj,Randers U15,"Randers U15 - Silkeborg IF U15, 4 - 2",6,4,1,66.67,16.67
-S. Kristensen,Randers U15,"Randers U15 - Lyngby U15, 1 - 1",9,6,2,66.67,22.22
+S. Kristensen,Randers U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",9,6,2,66.67,22.22
 S. Kristensen,Randers U15,"Randers U15 - Silkeborg IF U15, 4 - 2",7,5,2,71.43,28.57
 S. Maul,Horsens U15,"AGF U15 - Horsens U15, 1 - 4",4,1,0,25.0,0.0
-S. Møller Blindbæk,Sønderjyske U15,"OB U15 - Sønderjyske U15, 4 - 1",11,7,2,63.64,18.18
-S. Møller Blindbæk,Sønderjyske U15,"Sønderjyske U15 - Vejle U15, 2 - 1",3,3,1,100.0,33.33
+S. Møller Blindbæk,SønderjyskE U15,"OB U15 - Sønderjyske U15, 4 - 1",11,7,2,63.64,18.18
+S. Møller Blindbæk,SønderjyskE U15,"Sønderjyske U15 - Vejle U15, 2 - 1",3,3,1,100.0,33.33
 S. Noah Kabuye,FC Nordsjælland U15,"Farum Boldklub U15 - AaB U15, 1 - 3",2,1,0,50.0,0.0
 S. Noah Kabuye,FC Nordsjælland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",3,2,0,66.67,0.0
 S. Raun-Petersen,OB U15,"OB U15 - Sønderjyske U15, 4 - 1",9,7,2,77.78,22.22
@@ -183,17 +195,19 @@ S. Sorensen,Vejle U15,"Vejle U15 - København U15, 1 - 6",4,2,1,50.0,25.0
 T. Aaby Andersen,Horsens U15,"AGF U15 - Horsens U15, 1 - 4",7,4,1,57.14,14.29
 T. Frederiksen,AGF U15,"AGF U15 - Horsens U15, 1 - 4",6,4,2,66.67,33.33
 T. Haugen-Vestenaa,AGF U15,"AGF U15 - Horsens U15, 1 - 4",6,6,1,100.0,16.67
-T. Mogensen,Sønderjyske U15,"OB U15 - Sønderjyske U15, 4 - 1",12,11,3,91.67,25.0
-T. Mogensen,Sønderjyske U15,"Sønderjyske U15 - Vejle U15, 2 - 1",4,4,1,100.0,25.0
+T. Mogensen,SønderjyskE U15,"OB U15 - Sønderjyske U15, 4 - 1",12,11,3,91.67,25.0
+T. Mogensen,SønderjyskE U15,"Sønderjyske U15 - Vejle U15, 2 - 1",4,4,1,100.0,25.0
 T. Sandø Sejersen,Randers U15,"Randers U15 - Silkeborg IF U15, 4 - 2",2,2,0,100.0,0.0
-U. Unknown,Sønderjyske U15,"Sønderjyske U15 - Vejle U15, 2 - 1",5,4,1,80.0,20.0
+U. Unknown,SønderjyskE U15,"Sønderjyske U15 - Vejle U15, 2 - 1",5,4,1,80.0,20.0
 V. Beer,FC Nordsjælland U15,"Farum Boldklub U15 - AaB U15, 1 - 3",6,2,1,33.33,16.67
 V. Beer,FC Nordsjælland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",6,6,1,100.0,16.67
 V. Boe Rasmussen,OB U15,"OB U15 - Sønderjyske U15, 4 - 1",3,2,1,66.67,33.33
 V. Byskov,AGF U15,"AGF U15 - Horsens U15, 1 - 4",2,0,0,0.0,0.0
 V. Cornelius,Brøndby IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",1,1,1,100.0,100.0
 V. Dalsgaard,AaB U15,"Farum Boldklub U15 - AaB U15, 1 - 3",4,2,1,50.0,25.0
+V. Deliu,Lyngby U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",7,4,1,57.14,14.29
 V. Dencker,AaB U15,"Farum Boldklub U15 - AaB U15, 1 - 3",6,2,0,33.33,0.0
+V. Kjems,Lyngby U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",2,2,1,100.0,50.0
 V. Kjær,Horsens U15,"AGF U15 - Horsens U15, 1 - 4",5,3,0,60.0,0.0
 V. Kristensen,Midtjylland U15,"Midtjylland U15 - Farum Boldklub U15, 1 - 0",8,6,2,75.0,25.0
 V. Lund,Brøndby IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",3,2,0,66.67,0.0
@@ -207,8 +221,10 @@ W. Enevoldsen,Vejle U15,"Sønderjyske U15 - Vejle U15, 2 - 1",11,6,3,54.55,27.27
 W. Enevoldsen,Vejle U15,"Vejle U15 - København U15, 1 - 6",6,5,1,83.33,16.67
 W. Gunni Winther,Brøndby IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",7,6,3,85.71,42.86
 W. Jensen,AGF U15,"AGF U15 - Horsens U15, 1 - 4",11,5,2,45.45,18.18
+W. Nabate,Lyngby U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",1,1,1,100.0,100.0
 W. Sommer,København U15,"Vejle U15 - København U15, 1 - 6",5,3,2,60.0,40.0
 W. Thorup Hansen,Brøndby IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",4,2,0,50.0,0.0
 Y. Amara,Silkeborg IF U15,"Randers U15 - Silkeborg IF U15, 4 - 2",5,2,0,40.0,0.0
 Y. Amara,Silkeborg IF U15,"Silkeborg IF U15 - Brøndby IF U15, 1 - 4",9,6,2,66.67,22.22
+Y. Deveci,Randers U15,"Randers U15 - Lyngby U15, 1 - 1 (E)",4,3,0,75.0,0.0
 Y. Ugurlu,Vejle U15,"Vejle U15 - København U15, 1 - 6",5,2,1,40.0,20.0

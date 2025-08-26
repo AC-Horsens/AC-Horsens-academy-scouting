@@ -6,6 +6,7 @@ A. Garly,HIK,"Helsingør - HIK, 1 - 2",4,2,0,50.0,0.0
 A. Garly,HIK,"Vendsyssel - HIK, 1 - 0",5,2,2,40.0,40.0
 A. Halsgaard,Næstved,"HIK - Næstved, 2 - 1",6,3,2,50.0,33.33
 A. Halsgaard,Næstved,"Næstved - Fremad Amager, 1 - 0",1,1,1,100.0,100.0
+A. Halsgaard,Næstved,"Næstved - Ishøj, 2 - 2",2,2,1,100.0,50.0
 A. Horup,AB,"Brabrand - AB, 1 - 2",3,3,0,100.0,0.0
 A. Høyer,Thisted,"Thisted - VSK Århus, 2 - 2",1,1,0,100.0,0.0
 A. Johansen,Fremad Amager,"Næstved - Fremad Amager, 1 - 0",4,1,0,25.0,0.0
@@ -36,8 +37,10 @@ B. Clemmensen,Vendsyssel,"Vendsyssel - HIK, 1 - 0",6,5,2,83.33,33.33
 B. Clemmensen,Vendsyssel,"Vendsyssel - Skive, 2 - 0",5,5,2,100.0,40.0
 B. Kruse,Ishøj,"Fremad Amager - Ishøj, 1 - 1",6,3,1,50.0,16.67
 B. Kruse,Ishøj,"Ishøj - Roskilde, 1 - 2",6,6,2,100.0,33.33
+B. Kruse,Ishøj,"Næstved - Ishøj, 2 - 2",1,1,0,100.0,0.0
 B. Kvist,Næstved,"HIK - Næstved, 2 - 1",1,1,0,100.0,0.0
 B. Kvist,Næstved,"Næstved - Fremad Amager, 1 - 0",1,1,0,100.0,0.0
+B. Kvist,Næstved,"Næstved - Ishøj, 2 - 2",1,0,0,0.0,0.0
 B. Kvist,Næstved,"Næstved - Roskilde, 1 - 0",2,0,0,0.0,0.0
 B. Manniche,Fremad Amager,"Thisted - Fremad Amager, 2 - 1",1,0,0,0.0,0.0
 B. Masaad,Ishøj,"Fremad Amager - Ishøj, 1 - 1",1,1,0,100.0,0.0
@@ -45,8 +48,10 @@ C. Andersen,Ishøj,"Fremad Amager - Ishøj, 1 - 1",3,3,1,100.0,33.33
 C. Boateng,Fremad Amager,"Skive - Fremad Amager, 0 - 0",1,0,0,0.0,0.0
 C. Cordua,Ishøj,"Fremad Amager - Ishøj, 1 - 1",9,5,4,55.56,44.44
 C. Cordua,Ishøj,"Ishøj - Roskilde, 1 - 2",6,4,2,66.67,33.33
+C. Cordua,Ishøj,"Næstved - Ishøj, 2 - 2",6,3,0,50.0,0.0
 C. Friedrich,Næstved,"HIK - Næstved, 2 - 1",6,6,2,100.0,33.33
 C. Friedrich,Næstved,"Næstved - Fremad Amager, 1 - 0",11,7,5,63.64,45.45
+C. Friedrich,Næstved,"Næstved - Ishøj, 2 - 2",4,3,0,75.0,0.0
 C. Friedrich,Næstved,"Næstved - Roskilde, 1 - 0",1,0,0,0.0,0.0
 C. Grening,AB,"Brabrand - AB, 1 - 2",2,0,0,0.0,0.0
 C. Hørby,Thisted,"Skive - Thisted, 1 - 2",4,1,1,25.0,25.0
@@ -95,6 +100,7 @@ E. Rørsted Christensen,Helsingør,"AB - Helsingør, 1 - 2",1,0,0,0.0,0.0
 E. Rørsted Christensen,Helsingør,"Helsingør - Skive, 0 - 4",2,2,1,100.0,50.0
 E. Salamoun,Ishøj,"Fremad Amager - Ishøj, 1 - 1",10,9,5,90.0,50.0
 E. Salamoun,Ishøj,"Ishøj - Roskilde, 1 - 2",6,2,0,33.33,0.0
+E. Salamoun,Ishøj,"Næstved - Ishøj, 2 - 2",2,2,1,100.0,50.0
 E. Thomsen,HIK,"Helsingør - HIK, 1 - 2",5,3,2,60.0,40.0
 E. Thomsen,HIK,"Vendsyssel - HIK, 1 - 0",5,3,1,60.0,20.0
 E. Thor,HIK,"Vendsyssel - HIK, 1 - 0",1,0,0,0.0,0.0
@@ -104,12 +110,14 @@ E. Zeqiri,Fremad Amager,"Skive - Fremad Amager, 0 - 0",1,0,0,0.0,0.0
 E. Zeqiri,Fremad Amager,"Thisted - Fremad Amager, 2 - 1",2,1,0,50.0,0.0
 F. Christensen,Næstved,"HIK - Næstved, 2 - 1",3,0,0,0.0,0.0
 F. Christensen,Næstved,"Næstved - Fremad Amager, 1 - 0",2,1,0,50.0,0.0
+F. Christensen,Næstved,"Næstved - Ishøj, 2 - 2",3,2,1,66.67,33.33
 F. Christensen,Næstved,"Næstved - Roskilde, 1 - 0",4,3,2,75.0,50.0
 F. Engqvist,Roskilde,"Næstved - Roskilde, 1 - 0",1,0,0,0.0,0.0
 F. Lindgaard,AB,"AB - Helsingør, 1 - 2",6,3,1,50.0,16.67
 F. Lindgaard,AB,"Brabrand - AB, 1 - 2",5,2,1,40.0,20.0
 F. Munck,Ishøj,"Fremad Amager - Ishøj, 1 - 1",9,4,2,44.44,22.22
 F. Munck,Ishøj,"Ishøj - Roskilde, 1 - 2",7,6,1,85.71,14.29
+F. Munck,Ishøj,"Næstved - Ishøj, 2 - 2",3,3,0,100.0,0.0
 F. Sloth,Skive,"Helsingør - Skive, 0 - 4",7,5,3,71.43,42.86
 F. Sloth,Skive,"Skive - Thisted, 1 - 2",3,2,0,66.67,0.0
 F. Sloth,Skive,"Vendsyssel - Skive, 2 - 0",12,6,2,50.0,16.67
@@ -161,9 +169,12 @@ J. Idris,Helsingør,"Helsingør - Skive, 0 - 4",2,2,1,100.0,50.0
 J. Jønsson,Brabrand,"Brabrand - AB, 1 - 2",4,3,0,75.0,0.0
 J. Kinful,Ishøj,"Fremad Amager - Ishøj, 1 - 1",1,0,0,0.0,0.0
 J. Kinful,Ishøj,"Ishøj - Roskilde, 1 - 2",1,1,0,100.0,0.0
+J. Kinful,Ishøj,"Næstved - Ishøj, 2 - 2",6,3,0,50.0,0.0
 J. Lauridsen Krath,Næstved,"Næstved - Fremad Amager, 1 - 0",1,0,0,0.0,0.0
+J. Lauridsen Krath,Næstved,"Næstved - Ishøj, 2 - 2",2,0,0,0.0,0.0
 J. Mathys,AB,"AB - Helsingør, 1 - 2",3,2,0,66.67,0.0
 J. Moussa,Ishøj,"Ishøj - Roskilde, 1 - 2",2,1,0,50.0,0.0
+J. Moussa,Ishøj,"Næstved - Ishøj, 2 - 2",2,2,1,100.0,50.0
 J. Rindom,HIK,"HIK - Næstved, 2 - 1",2,2,0,100.0,0.0
 J. Rindom,HIK,"Helsingør - HIK, 1 - 2",6,3,0,50.0,0.0
 J. Rindom,HIK,"Vendsyssel - HIK, 1 - 0",1,1,0,100.0,0.0
@@ -193,22 +204,26 @@ L. Bak Laursen,Skive,"Skive - Thisted, 1 - 2",3,3,0,100.0,0.0
 L. Bak Laursen,Skive,"Vendsyssel - Skive, 2 - 0",6,3,0,50.0,0.0
 L. Benjamin,Næstved,"HIK - Næstved, 2 - 1",2,1,0,50.0,0.0
 L. Benjamin,Næstved,"Næstved - Fremad Amager, 1 - 0",10,6,2,60.0,20.0
+L. Benjamin,Næstved,"Næstved - Ishøj, 2 - 2",4,2,2,50.0,50.0
 L. Benjamin,Næstved,"Næstved - Roskilde, 1 - 0",1,1,1,100.0,100.0
 L. Bulow,Brabrand,"Brabrand - AB, 1 - 2",7,5,1,71.43,14.29
 L. Bulow,Brabrand,"VSK Århus - Brabrand, 2 - 1",1,0,0,0.0,0.0
 L. Nielsen,Skive,"Skive - Fremad Amager, 0 - 0",2,1,0,50.0,0.0
 L. Nielsen,Skive,"Vendsyssel - Skive, 2 - 0",3,1,0,33.33,0.0
+L. Riisgaard,Næstved,"Næstved - Ishøj, 2 - 2",1,0,0,0.0,0.0
 L. Schulz,Vendsyssel,"Vendsyssel - Skive, 2 - 0",1,1,1,100.0,100.0
 L. Wagner,Skive,"Helsingør - Skive, 0 - 4",7,5,1,71.43,14.29
 L. Wagner,Skive,"Skive - Thisted, 1 - 2",5,3,0,60.0,0.0
 L. Wagner,Skive,"Vendsyssel - Skive, 2 - 0",5,2,1,40.0,20.0
 M. Alatlassi,Ishøj,"Fremad Amager - Ishøj, 1 - 1",3,1,1,33.33,33.33
 M. Alatlassi,Ishøj,"Ishøj - Roskilde, 1 - 2",4,4,0,100.0,0.0
+M. Alatlassi,Ishøj,"Næstved - Ishøj, 2 - 2",1,0,0,0.0,0.0
 M. Andersen,Thisted,"Skive - Thisted, 1 - 2",3,1,0,33.33,0.0
 M. Andersen,Thisted,"Thisted - Fremad Amager, 2 - 1",4,2,0,50.0,0.0
 M. Andersen,Thisted,"Thisted - VSK Århus, 2 - 2",4,3,0,75.0,0.0
 M. Azaquoun,Ishøj,"Fremad Amager - Ishøj, 1 - 1",7,6,2,85.71,28.57
 M. Azaquoun,Ishøj,"Ishøj - Roskilde, 1 - 2",4,3,0,75.0,0.0
+M. Azaquoun,Ishøj,"Næstved - Ishøj, 2 - 2",3,1,1,33.33,33.33
 M. Bager,Vendsyssel,"Roskilde - Vendsyssel, 2 - 0",3,2,0,66.67,0.0
 M. Bager,Vendsyssel,"Vendsyssel - HIK, 1 - 0",5,2,1,40.0,20.0
 M. Bager,Vendsyssel,"Vendsyssel - Skive, 2 - 0",2,1,1,50.0,50.0
@@ -220,6 +235,7 @@ M. Bay,Fremad Amager,"Skive - Fremad Amager, 0 - 0",3,2,1,66.67,33.33
 M. Bay,Fremad Amager,"Thisted - Fremad Amager, 2 - 1",5,5,0,100.0,0.0
 M. Bay Jensen,Brabrand,"VSK Århus - Brabrand, 2 - 1",4,2,0,50.0,0.0
 M. Beyer,Ishøj,"Ishøj - Roskilde, 1 - 2",1,0,0,0.0,0.0
+M. Beyer,Ishøj,"Næstved - Ishøj, 2 - 2",5,5,2,100.0,40.0
 M. Brems,Helsingør,"AB - Helsingør, 1 - 2",9,4,3,44.44,33.33
 M. Brems,Helsingør,"Helsingør - HIK, 1 - 2",3,3,1,100.0,33.33
 M. Brems,Helsingør,"Helsingør - Skive, 0 - 4",2,2,2,100.0,100.0
@@ -233,6 +249,7 @@ M. Carlson,Roskilde,"Næstved - Roskilde, 1 - 0",1,0,0,0.0,0.0
 M. Carlson,Roskilde,"Roskilde - VSK Århus, 5 - 0",1,0,0,0.0,0.0
 M. Carlson,Roskilde,"Roskilde - Vendsyssel, 2 - 0",7,4,1,57.14,14.29
 M. Christiansen,Næstved,"Næstved - Fremad Amager, 1 - 0",5,2,1,40.0,20.0
+M. Christiansen,Næstved,"Næstved - Ishøj, 2 - 2",2,0,0,0.0,0.0
 M. Christiansen,Næstved,"Næstved - Roskilde, 1 - 0",2,1,0,50.0,0.0
 M. Christiansen,Skive,"Helsingør - Skive, 0 - 4",4,4,0,100.0,0.0
 M. Christiansen,Skive,"Skive - Fremad Amager, 0 - 0",2,1,1,50.0,50.0
@@ -261,6 +278,7 @@ M. Holt,Vendsyssel,"Roskilde - Vendsyssel, 2 - 0",3,2,0,66.67,0.0
 M. Holt,Vendsyssel,"Vendsyssel - HIK, 1 - 0",6,2,0,33.33,0.0
 M. Holt,Vendsyssel,"Vendsyssel - Skive, 2 - 0",9,5,5,55.56,55.56
 M. Høst,Næstved,"Næstved - Fremad Amager, 1 - 0",2,2,0,100.0,0.0
+M. Høst,Næstved,"Næstved - Ishøj, 2 - 2",4,4,3,100.0,75.0
 M. Høst,Næstved,"Næstved - Roskilde, 1 - 0",5,2,0,40.0,0.0
 M. Immersen,AB,"AB - Helsingør, 1 - 2",2,1,0,50.0,0.0
 M. Immersen,AB,"Brabrand - AB, 1 - 2",3,1,1,33.33,33.33
@@ -271,6 +289,7 @@ M. Juhl,Roskilde,"Roskilde - Vendsyssel, 2 - 0",9,7,2,77.78,22.22
 M. Julø,Fremad Amager,"Fremad Amager - Ishøj, 1 - 1",6,3,1,50.0,16.67
 M. Julø,Fremad Amager,"Næstved - Fremad Amager, 1 - 0",8,6,1,75.0,12.5
 M. Jørgensen,Næstved,"Næstved - Fremad Amager, 1 - 0",8,2,0,25.0,0.0
+M. Jørgensen,Næstved,"Næstved - Ishøj, 2 - 2",1,1,1,100.0,100.0
 M. Kisum,Næstved,"HIK - Næstved, 2 - 1",2,0,0,0.0,0.0
 M. Kisum,Næstved,"Næstved - Roskilde, 1 - 0",1,0,0,0.0,0.0
 M. Kjellerup,Brabrand,"Brabrand - AB, 1 - 2",3,2,2,66.67,66.67
@@ -280,6 +299,7 @@ M. Knudsen,Helsingør,"Helsingør - HIK, 1 - 2",2,2,1,100.0,50.0
 M. Knudsen,Helsingør,"Helsingør - Skive, 0 - 4",10,7,3,70.0,30.0
 M. Kongstedt,Næstved,"HIK - Næstved, 2 - 1",8,6,3,75.0,37.5
 M. Kongstedt,Næstved,"Næstved - Fremad Amager, 1 - 0",2,1,0,50.0,0.0
+M. Kongstedt,Næstved,"Næstved - Ishøj, 2 - 2",1,1,1,100.0,100.0
 M. Kongstedt,Næstved,"Næstved - Roskilde, 1 - 0",2,1,1,50.0,50.0
 M. Kristensen,Fremad Amager,"Skive - Fremad Amager, 0 - 0",3,1,0,33.33,0.0
 M. Lassen,Vendsyssel,"Roskilde - Vendsyssel, 2 - 0",4,1,1,25.0,25.0
@@ -326,6 +346,7 @@ M.E. Langberg,Fremad Amager,"Fremad Amager - Ishøj, 1 - 1",4,2,1,50.0,25.0
 M.E. Langberg,Fremad Amager,"Næstved - Fremad Amager, 1 - 0",8,7,2,87.5,25.0
 M.E. Langberg,Fremad Amager,"Skive - Fremad Amager, 0 - 0",7,6,5,85.71,71.43
 M.E. Langberg,Fremad Amager,"Thisted - Fremad Amager, 2 - 1",2,2,1,100.0,50.0
+Mohammad Hassan,Ishøj,"Næstved - Ishøj, 2 - 2",1,1,0,100.0,0.0
 N. Bagger,Helsingør,"Helsingør - Skive, 0 - 4",5,4,0,80.0,0.0
 N. Halse,Roskilde,"Næstved - Roskilde, 1 - 0",1,0,0,0.0,0.0
 N. Halse,Roskilde,"Roskilde - Vendsyssel, 2 - 0",3,2,1,66.67,33.33
@@ -405,6 +426,7 @@ S. Slettegaard,Helsingør,"Helsingør - Skive, 0 - 4",4,2,1,50.0,25.0
 S. Stojilkovic,Brabrand,"VSK Århus - Brabrand, 2 - 1",7,4,3,57.14,42.86
 S. Tattum,Næstved,"HIK - Næstved, 2 - 1",4,3,3,75.0,75.0
 S. Tattum,Næstved,"Næstved - Fremad Amager, 1 - 0",2,2,2,100.0,100.0
+S. Tattum,Næstved,"Næstved - Ishøj, 2 - 2",4,3,1,75.0,25.0
 S. Trier,Roskilde,"Ishøj - Roskilde, 1 - 2",6,4,2,66.67,33.33
 S. Trier,Roskilde,"Næstved - Roskilde, 1 - 0",3,2,1,66.67,33.33
 S. Trier,Roskilde,"Roskilde - VSK Århus, 5 - 0",2,2,0,100.0,0.0
@@ -427,9 +449,11 @@ T. Nielsen,Helsingør,"Helsingør - Skive, 0 - 4",3,1,0,33.33,0.0
 T. Olesen,Brabrand,"VSK Århus - Brabrand, 2 - 1",4,3,2,75.0,50.0
 T. Olesen,Næstved,"HIK - Næstved, 2 - 1",2,1,0,50.0,0.0
 T. Olesen,Næstved,"Næstved - Fremad Amager, 1 - 0",3,1,0,33.33,0.0
+T. Olesen,Næstved,"Næstved - Ishøj, 2 - 2",1,1,0,100.0,0.0
 T. Olesen,Næstved,"Næstved - Roskilde, 1 - 0",1,1,0,100.0,0.0
 T. Pedersen,Ishøj,"Fremad Amager - Ishøj, 1 - 1",8,4,1,50.0,12.5
 T. Pedersen,Ishøj,"Ishøj - Roskilde, 1 - 2",4,2,1,50.0,25.0
+T. Pedersen,Ishøj,"Næstved - Ishøj, 2 - 2",1,0,0,0.0,0.0
 V. Engstrøm,Thisted,"Thisted - Fremad Amager, 2 - 1",2,2,1,100.0,50.0
 V. Engstrøm,Thisted,"Thisted - VSK Århus, 2 - 2",1,1,0,100.0,0.0
 V. Friis Enggaard,HIK,"Helsingør - HIK, 1 - 2",4,2,0,50.0,0.0
@@ -441,6 +465,7 @@ V. Montell,Roskilde,"Næstved - Roskilde, 1 - 0",2,1,1,50.0,50.0
 V. Montell,Roskilde,"Roskilde - VSK Århus, 5 - 0",3,2,0,66.67,0.0
 V. Montell,Roskilde,"Roskilde - Vendsyssel, 2 - 0",1,1,1,100.0,100.0
 W. Maretti,Ishøj,"Fremad Amager - Ishøj, 1 - 1",1,1,1,100.0,100.0
+W. Maretti,Ishøj,"Næstved - Ishøj, 2 - 2",4,1,1,25.0,25.0
 Y. Akbayir,VSK Århus,"Roskilde - VSK Århus, 5 - 0",2,1,0,50.0,0.0
 Y. Akbayir,VSK Århus,"Thisted - VSK Århus, 2 - 2",1,0,0,0.0,0.0
 Z. Hamade,Roskilde,"Ishøj - Roskilde, 1 - 2",1,1,1,100.0,100.0
