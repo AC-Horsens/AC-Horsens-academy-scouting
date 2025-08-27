@@ -35,7 +35,7 @@ try:
     df_competitions = pd.read_sql(f"""
         SELECT COMPETITION_WYID, COMPETITIONNAME
         FROM WYSCOUT_COMPETITIONS
-        WHERE COMPETITIONNAME IN ('U15 Ligaen','U17 Ligaen','U19 Ligaen','2nd Division','3. Division')
+        WHERE COMPETITIONNAME IN ('U17 Division','U19 Division','U15 Ligaen','U17 Ligaen','U19 Ligaen','2nd Division','3. Division')
         AND COMPETITION_WYID IN ({competition_wyid_list})
     """, conn)
     df_competitions.columns = [c.upper() for c in df_competitions.columns]
@@ -210,7 +210,7 @@ try:
     df_events = df_events.drop(columns=columns_to_drop, errors='ignore')
     df_events = df_events.drop_duplicates(subset=['MATCH_WYID','EVENT_WYID'])
 
-    leagues = ['U15 Ligaen','U17 Ligaen','U19 Ligaen','2nd Division','3. Division']
+    leagues = ['U17 Division','U19 Division','U15 Ligaen','U17 Ligaen','U19 Ligaen','2nd Division','3. Division']
     for league in leagues:
         # Filter the DataFrame for the current league
         df_league_events = df_events[df_events['COMPETITIONNAME'] == league]
